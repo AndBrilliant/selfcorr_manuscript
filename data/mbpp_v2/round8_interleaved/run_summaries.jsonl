@@ -1,0 +1,2 @@
+{"calls_made": 100, "cap_usd": 1.5, "credit_floor": 5.0, "credits_after": 64.479, "credits_before": 64.6244, "credits_delta": 0.1454, "label": "interleaved", "logged_cost_usd": 0.1891, "stop_reason": null, "stopped": false}
+{"calls_made": 6155, "cap_usd": 28.0, "credit_floor": 5.0, "credits_after": 62.6625, "credits_before": 42.5808, "credits_delta": -20.0817, "label": "interleaved", "logged_cost_usd": 16.6596, "stop_reason": null, "stopped": false}

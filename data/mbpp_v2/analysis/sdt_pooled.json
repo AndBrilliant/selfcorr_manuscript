@@ -1,0 +1,59 @@
+{
+ "delta_d_prime": {
+  "pooled": 0.037,
+  "ci90": [
+   -0.091,
+   0.165
+  ],
+  "tost_p_by_margin": {
+   "0.15": 0.0733,
+   "0.2": 0.0182,
+   "0.25": 0.0031
+  },
+  "ci95": [
+   -0.116,
+   0.19
+  ],
+  "mde80_pooled": 0.218,
+  "mde80_per_family": {
+   "ds-v4-flash": 0.779,
+   "glm-5.3-flash": 0.494,
+   "qwen38-flash": 0.635,
+   "gpt-5.4": 0.466,
+   "gpt-6-luna": 0.35
+  },
+  "cochran_q": 3.52,
+  "df": 4,
+  "q_p": 0.475,
+  "i2_pct": 0.0
+ },
+ "delta_c": {
+  "pooled": 0.247,
+  "ci90": [
+   0.183,
+   0.311
+  ],
+  "tost_p_by_margin": {
+   "0.15": 0.9937,
+   "0.2": 0.8869,
+   "0.25": 0.4694
+  },
+  "ci95": [
+   0.171,
+   0.323
+  ],
+  "mde80_pooled": 0.109,
+  "mde80_per_family": {
+   "ds-v4-flash": 0.391,
+   "glm-5.3-flash": 0.244,
+   "qwen38-flash": 0.317,
+   "gpt-5.4": 0.232,
+   "gpt-6-luna": 0.175
+  },
+  "cochran_q": 10.15,
+  "df": 4,
+  "q_p": 0.038,
+  "i2_pct": 60.6
+ },
+ "method": "inverse-variance pooling; per-family SE = (upper - lower) / 3.92 of the 95% bootstrap interval"
+}

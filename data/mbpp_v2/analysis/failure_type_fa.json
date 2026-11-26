@@ -1,0 +1,54 @@
+{
+  "schema": "mbpp-v2-failure-type-fa/1",
+  "scope": "production paired stratum (both arms parsed, ground truth assigned); categories use the identical classification as failure_type_breakdown.json",
+  "categories": {
+    "runs, wrong values (assertion failure)": {
+      "n_incorrect": 1230,
+      "selfcheck_fa": 1136,
+      "steelman_fa": 1099,
+      "selfcheck_fa_wilson95": [
+        90.7,
+        93.7
+      ],
+      "steelman_fa_wilson95": [
+        87.5,
+        91.0
+      ],
+      "discordant_selfcheck_only": 83,
+      "discordant_steelman_only": 46,
+      "mcnemar_exact_p": 0.001429232699285156
+    },
+    "runtime crash or pre-execution guard block": {
+      "n_incorrect": 727,
+      "selfcheck_fa": 686,
+      "steelman_fa": 649,
+      "selfcheck_fa_wilson95": [
+        92.4,
+        95.8
+      ],
+      "steelman_fa_wilson95": [
+        86.8,
+        91.3
+      ],
+      "discordant_selfcheck_only": 48,
+      "discordant_steelman_only": 11,
+      "mcnemar_exact_p": 1.2416282261784595e-06
+    },
+    "missing/renamed entry point": {
+      "n_incorrect": 3,
+      "selfcheck_fa": 2,
+      "steelman_fa": 2,
+      "selfcheck_fa_wilson95": [
+        20.8,
+        93.9
+      ],
+      "steelman_fa_wilson95": [
+        20.8,
+        93.9
+      ],
+      "discordant_selfcheck_only": 0,
+      "discordant_steelman_only": 0,
+      "mcnemar_exact_p": 1.0
+    }
+  }
+}

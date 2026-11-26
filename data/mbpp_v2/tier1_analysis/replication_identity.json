@@ -1,0 +1,46 @@
+{
+ "overall": {
+  "pairs": 4697,
+  "identical": 1592,
+  "identical_pct": 33.9,
+  "label_flips": 292,
+  "label_flips_pct": 6.2
+ },
+ "by_model": {
+  "ds-v4-flash": {
+   "pairs": 927,
+   "identical": 304,
+   "identical_pct": 32.8,
+   "label_flips": 48,
+   "label_flips_pct": 5.2
+  },
+  "glm-5.3-flash": {
+   "pairs": 932,
+   "identical": 19,
+   "identical_pct": 2.0,
+   "label_flips": 137,
+   "label_flips_pct": 14.7
+  },
+  "gpt-5.4": {
+   "pairs": 947,
+   "identical": 774,
+   "identical_pct": 81.7,
+   "label_flips": 9,
+   "label_flips_pct": 1.0
+  },
+  "gpt-6-luna": {
+   "pairs": 947,
+   "identical": 314,
+   "identical_pct": 33.2,
+   "label_flips": 32,
+   "label_flips_pct": 3.4
+  },
+  "qwen38-flash": {
+   "pairs": 944,
+   "identical": 181,
+   "identical_pct": 19.2,
+   "label_flips": 66,
+   "label_flips_pct": 7.0
+  }
+ }
+}

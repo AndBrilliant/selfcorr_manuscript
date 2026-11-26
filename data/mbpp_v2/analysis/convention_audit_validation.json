@@ -1,0 +1,6 @@
+{
+ "sample_seed": 7,
+ "n_correct_sampled": 300,
+ "pass_strict_all_asserts": 300,
+ "all_asserts_parsed": 300
+}

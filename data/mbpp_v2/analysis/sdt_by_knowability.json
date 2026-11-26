@@ -1,0 +1,62 @@
+{
+ "KNOWABLE": {
+  "selfcheck": {
+   "TA": 0.978,
+   "FA": 0.646,
+   "evidence_bits": 0.599,
+   "d": 1.649,
+   "c": -1.199,
+   "n_err": 48,
+   "n_cor": 2695
+  },
+  "steelman": {
+   "TA": 0.965,
+   "FA": 0.396,
+   "evidence_bits": 1.286,
+   "d": 2.078,
+   "c": -0.775,
+   "n_err": 48,
+   "n_cor": 2695
+  },
+  "delta_d_prime": 0.428,
+  "delta_d_prime_ci95": [
+   -0.017,
+   0.896
+  ],
+  "delta_c": 0.424,
+  "delta_c_ci95": [
+   0.207,
+   0.665
+  ]
+ },
+ "NOT_KNOWABLE": {
+  "selfcheck": {
+   "TA": 0.978,
+   "FA": 0.946,
+   "evidence_bits": 0.049,
+   "d": 0.415,
+   "c": -1.816,
+   "n_err": 1855,
+   "n_cor": 2695
+  },
+  "steelman": {
+   "TA": 0.965,
+   "FA": 0.913,
+   "evidence_bits": 0.08,
+   "d": 0.453,
+   "c": -1.587,
+   "n_err": 1855,
+   "n_cor": 2695
+  },
+  "delta_d_prime": 0.037,
+  "delta_d_prime_ci95": [
+   -0.128,
+   0.191
+  ],
+  "delta_c": 0.229,
+  "delta_c_ci95": [
+   0.154,
+   0.304
+  ]
+ }
+}

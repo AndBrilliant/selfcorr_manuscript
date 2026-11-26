@@ -1,0 +1,27 @@
+Shared-blind-spot test (cross-evaluation, MBPP)
+
+Row accounting: {"cross_rows_total": 18872, "generator_correct": 10900, "null_T_other_family": 122, "null_T_E_or_G": 66, "analysis_rows_before_verdict_filter": 7784}; tasks=499
+
+[selfcheck] rows=7652 (unparsed dropped 132); difficulty dist {0: 319, 1: 445, 2: 1531, 3: 5357}
+  raw FA: own code wrong 86.0% (n=6551, [85.1, 86.8]) vs own code right 64.3% (n=1101, [61.4, 67.1]); same way 86.8% (n=6231)
+  PRIMARY MH OR own_wrong = 2.191 [1.732, 2.74] (strata used 78, skipped 2) -> supported
+  SECONDARY MH OR same_way = 2.341 [1.823, 2.975] (strata used 78, skipped 2)
+  robustness: OR difficulty 0-2 = 2.268, difficulty 3 = 2.117
+    gpt-5.4        OR 2.153 [1.091, 4.048]  raw FA wrong/right 85.8%/65.9%
+    ds-v4-flash    OR 1.603 [0.927, 2.657]  raw FA wrong/right 86.1%/67.2%
+    glm-5.3-flash  OR 2.461 [1.654, 3.598]  raw FA wrong/right 82.5%/61.5%
+    qwen38-flash   OR 1.612 [0.78, 2.965]  raw FA wrong/right 89.1%/71.4%
+    gpt-6-luna     OR 3.078 [1.469, 6.496]  raw FA wrong/right 85.7%/59.8%
+
+[steelman] rows=7659 (unparsed dropped 125); difficulty dist {0: 320, 1: 443, 2: 1532, 3: 5364}
+  raw FA: own code wrong 84.5% (n=6543, [83.7, 85.4]) vs own code right 65.9% (n=1116, [63.0, 68.6]); same way 85.5% (n=6212)
+  PRIMARY MH OR own_wrong = 1.984 [1.614, 2.448] (strata used 78, skipped 2) -> supported
+  SECONDARY MH OR same_way = 2.177 [1.748, 2.744] (strata used 78, skipped 2)
+  robustness: OR difficulty 0-2 = 1.986, difficulty 3 = 1.981
+    gpt-5.4        OR 1.362 [0.635, 2.502]  raw FA wrong/right 85.6%/76.4%
+    ds-v4-flash    OR 2.11 [1.146, 3.765]  raw FA wrong/right 86.8%/65.8%
+    glm-5.3-flash  OR 2.156 [1.521, 3.025]  raw FA wrong/right 80.9%/62.6%
+    qwen38-flash   OR 1.531 [0.779, 2.832]  raw FA wrong/right 88.3%/75.2%
+    gpt-6-luna     OR 2.346 [1.155, 4.957]  raw FA wrong/right 80.4%/55.6%
+
+DECISION (primary, self-check): supported

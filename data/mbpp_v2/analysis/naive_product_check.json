@@ -1,0 +1,77 @@
+{
+ "ds-v4-flash|selfcheck": {
+  "over_product_bits": 0.019,
+  "ci95": [
+   -0.013,
+   0.053
+  ]
+ },
+ "ds-v4-flash|steelman": {
+  "over_product_bits": 0.05,
+  "ci95": [
+   0.003,
+   0.1
+  ]
+ },
+ "glm-5.3-flash|selfcheck": {
+  "over_product_bits": 0.175,
+  "ci95": [
+   0.099,
+   0.256
+  ]
+ },
+ "glm-5.3-flash|steelman": {
+  "over_product_bits": 0.257,
+  "ci95": [
+   0.155,
+   0.36
+  ]
+ },
+ "qwen38-flash|selfcheck": {
+  "over_product_bits": 0.061,
+  "ci95": [
+   0.021,
+   0.103
+  ]
+ },
+ "qwen38-flash|steelman": {
+  "over_product_bits": 0.12,
+  "ci95": [
+   0.062,
+   0.186
+  ]
+ },
+ "gpt-5.4|selfcheck": {
+  "over_product_bits": 0.176,
+  "ci95": [
+   0.083,
+   0.268
+  ]
+ },
+ "gpt-5.4|steelman": {
+  "over_product_bits": 0.22,
+  "ci95": [
+   0.116,
+   0.322
+  ]
+ },
+ "gpt-6-luna|selfcheck": {
+  "over_product_bits": 0.1,
+  "ci95": [
+   0.033,
+   0.17
+  ]
+ },
+ "gpt-6-luna|steelman": {
+  "over_product_bits": 0.145,
+  "ci95": [
+   0.041,
+   0.247
+  ]
+ },
+ "summary": {
+  "positive": 10,
+  "ci_excludes_zero": 9,
+  "cells": 10
+ }
+}

@@ -1,0 +1,84 @@
+{
+  "n_signatures": 1987,
+  "drops": {},
+  "selfcheck": {
+    "own_right": {
+      "n": 1101,
+      "fa_pct": 64.3,
+      "wilson95": [
+        61.4,
+        67.1
+      ]
+    },
+    "same_output": {
+      "n": 4927,
+      "fa_pct": 91.0,
+      "wilson95": [
+        90.2,
+        91.8
+      ]
+    },
+    "different_output": {
+      "n": 1624,
+      "fa_pct": 70.9,
+      "wilson95": [
+        68.6,
+        73.0
+      ]
+    },
+    "mh_or_same_output_vs_own_right": {
+      "or": 3.779,
+      "ci95": [
+        2.865,
+        4.956
+      ]
+    },
+    "mh_or_different_output_vs_own_right": {
+      "or": 0.797,
+      "ci95": [
+        0.587,
+        1.06
+      ]
+    }
+  },
+  "steelman": {
+    "own_right": {
+      "n": 1116,
+      "fa_pct": 65.9,
+      "wilson95": [
+        63.0,
+        68.6
+      ]
+    },
+    "same_output": {
+      "n": 4920,
+      "fa_pct": 89.3,
+      "wilson95": [
+        88.5,
+        90.2
+      ]
+    },
+    "different_output": {
+      "n": 1623,
+      "fa_pct": 70.0,
+      "wilson95": [
+        67.7,
+        72.2
+      ]
+    },
+    "mh_or_same_output_vs_own_right": {
+      "or": 3.501,
+      "ci95": [
+        2.741,
+        4.523
+      ]
+    },
+    "mh_or_different_output_vs_own_right": {
+      "or": 0.754,
+      "ci95": [
+        0.574,
+        0.959
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "artifact": "reference_harness_verification",
+  "tasks_run": 947,
+  "passed": 947,
+  "failed": 0,
+  "failures": [],
+  "harness": "scripts/mbpp_v2_pilot.py::run_task_tests (ast_guard, 15 s timeout, PASS-string check)",
+  "inputs": {
+    "tasks": "data/MBPP.jsonl (frozen 947-task set)",
+    "reference_solutions": "data/MBPP.reference-solutions.jsonl"
+  }
+}

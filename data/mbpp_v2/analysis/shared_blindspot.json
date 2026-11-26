@@ -1,0 +1,443 @@
+{
+  "drops": {
+    "cross_rows_total": 18872,
+    "generator_correct": 10900,
+    "null_T_other_family": 122,
+    "null_T_E_or_G": 66,
+    "analysis_rows_before_verdict_filter": 7784
+  },
+  "n_tasks": 499,
+  "selfcheck_rows": 7652,
+  "selfcheck_unparsed_dropped": 132,
+  "selfcheck": {
+    "raw": {
+      "all": {
+        "own_wrong": {
+          "n": 6551,
+          "fa": 5634,
+          "fa_pct": 86.0,
+          "wilson95": [
+            85.1,
+            86.8
+          ]
+        },
+        "own_right": {
+          "n": 1101,
+          "fa": 708,
+          "fa_pct": 64.3,
+          "wilson95": [
+            61.4,
+            67.1
+          ]
+        },
+        "same_way": {
+          "n": 6231,
+          "fa": 5408,
+          "fa_pct": 86.8,
+          "wilson95": [
+            85.9,
+            87.6
+          ]
+        }
+      },
+      "gpt-5.4": {
+        "own_wrong": {
+          "n": 1397,
+          "fa": 1198,
+          "fa_pct": 85.8,
+          "wilson95": [
+            83.8,
+            87.5
+          ]
+        },
+        "own_right": {
+          "n": 126,
+          "fa": 83,
+          "fa_pct": 65.9,
+          "wilson95": [
+            57.2,
+            73.6
+          ]
+        }
+      },
+      "ds-v4-flash": {
+        "own_wrong": {
+          "n": 1327,
+          "fa": 1143,
+          "fa_pct": 86.1,
+          "wilson95": [
+            84.2,
+            87.9
+          ]
+        },
+        "own_right": {
+          "n": 198,
+          "fa": 133,
+          "fa_pct": 67.2,
+          "wilson95": [
+            60.4,
+            73.3
+          ]
+        }
+      },
+      "glm-5.3-flash": {
+        "own_wrong": {
+          "n": 1042,
+          "fa": 860,
+          "fa_pct": 82.5,
+          "wilson95": [
+            80.1,
+            84.7
+          ]
+        },
+        "own_right": {
+          "n": 509,
+          "fa": 313,
+          "fa_pct": 61.5,
+          "wilson95": [
+            57.2,
+            65.6
+          ]
+        }
+      },
+      "qwen38-flash": {
+        "own_wrong": {
+          "n": 1375,
+          "fa": 1225,
+          "fa_pct": 89.1,
+          "wilson95": [
+            87.3,
+            90.6
+          ]
+        },
+        "own_right": {
+          "n": 161,
+          "fa": 115,
+          "fa_pct": 71.4,
+          "wilson95": [
+            64.0,
+            77.8
+          ]
+        }
+      },
+      "gpt-6-luna": {
+        "own_wrong": {
+          "n": 1410,
+          "fa": 1208,
+          "fa_pct": 85.7,
+          "wilson95": [
+            83.7,
+            87.4
+          ]
+        },
+        "own_right": {
+          "n": 107,
+          "fa": 64,
+          "fa_pct": 59.8,
+          "wilson95": [
+            50.3,
+            68.6
+          ]
+        }
+      }
+    },
+    "primary_own_wrong": {
+      "mh_or": 2.191,
+      "ci95": [
+        1.732,
+        2.74
+      ],
+      "strata_used": 78,
+      "strata_skipped": 2,
+      "bootstrap_valid": 2000
+    },
+    "secondary_same_way": {
+      "mh_or": 2.341,
+      "ci95": [
+        1.823,
+        2.975
+      ],
+      "strata_used": 78,
+      "strata_skipped": 2,
+      "bootstrap_valid": 2000
+    },
+    "per_evaluator_own_wrong": {
+      "gpt-5.4": {
+        "mh_or": 2.153,
+        "ci95": [
+          1.091,
+          4.048
+        ],
+        "strata_used": 16,
+        "strata_skipped": 0,
+        "bootstrap_valid": 2000
+      },
+      "ds-v4-flash": {
+        "mh_or": 1.603,
+        "ci95": [
+          0.927,
+          2.657
+        ],
+        "strata_used": 16,
+        "strata_skipped": 0,
+        "bootstrap_valid": 2000
+      },
+      "glm-5.3-flash": {
+        "mh_or": 2.461,
+        "ci95": [
+          1.654,
+          3.598
+        ],
+        "strata_used": 15,
+        "strata_skipped": 1,
+        "bootstrap_valid": 2000
+      },
+      "qwen38-flash": {
+        "mh_or": 1.612,
+        "ci95": [
+          0.78,
+          2.965
+        ],
+        "strata_used": 15,
+        "strata_skipped": 1,
+        "bootstrap_valid": 2000
+      },
+      "gpt-6-luna": {
+        "mh_or": 3.078,
+        "ci95": [
+          1.469,
+          6.496
+        ],
+        "strata_used": 16,
+        "strata_skipped": 0,
+        "bootstrap_valid": 2000
+      }
+    },
+    "own_wrong_difficulty_0to2": 2.268,
+    "own_wrong_difficulty_3": 2.117,
+    "difficulty_distribution": {
+      "0": 319,
+      "1": 445,
+      "2": 1531,
+      "3": 5357
+    },
+    "decision": "supported"
+  },
+  "steelman_rows": 7659,
+  "steelman_unparsed_dropped": 125,
+  "steelman": {
+    "raw": {
+      "all": {
+        "own_wrong": {
+          "n": 6543,
+          "fa": 5532,
+          "fa_pct": 84.5,
+          "wilson95": [
+            83.7,
+            85.4
+          ]
+        },
+        "own_right": {
+          "n": 1116,
+          "fa": 735,
+          "fa_pct": 65.9,
+          "wilson95": [
+            63.0,
+            68.6
+          ]
+        },
+        "same_way": {
+          "n": 6212,
+          "fa": 5313,
+          "fa_pct": 85.5,
+          "wilson95": [
+            84.6,
+            86.4
+          ]
+        }
+      },
+      "gpt-5.4": {
+        "own_wrong": {
+          "n": 1391,
+          "fa": 1191,
+          "fa_pct": 85.6,
+          "wilson95": [
+            83.7,
+            87.4
+          ]
+        },
+        "own_right": {
+          "n": 127,
+          "fa": 97,
+          "fa_pct": 76.4,
+          "wilson95": [
+            68.3,
+            82.9
+          ]
+        }
+      },
+      "ds-v4-flash": {
+        "own_wrong": {
+          "n": 1330,
+          "fa": 1154,
+          "fa_pct": 86.8,
+          "wilson95": [
+            84.8,
+            88.5
+          ]
+        },
+        "own_right": {
+          "n": 199,
+          "fa": 131,
+          "fa_pct": 65.8,
+          "wilson95": [
+            59.0,
+            72.1
+          ]
+        }
+      },
+      "glm-5.3-flash": {
+        "own_wrong": {
+          "n": 1032,
+          "fa": 835,
+          "fa_pct": 80.9,
+          "wilson95": [
+            78.4,
+            83.2
+          ]
+        },
+        "own_right": {
+          "n": 521,
+          "fa": 326,
+          "fa_pct": 62.6,
+          "wilson95": [
+            58.3,
+            66.6
+          ]
+        }
+      },
+      "qwen38-flash": {
+        "own_wrong": {
+          "n": 1377,
+          "fa": 1216,
+          "fa_pct": 88.3,
+          "wilson95": [
+            86.5,
+            89.9
+          ]
+        },
+        "own_right": {
+          "n": 161,
+          "fa": 121,
+          "fa_pct": 75.2,
+          "wilson95": [
+            67.9,
+            81.2
+          ]
+        }
+      },
+      "gpt-6-luna": {
+        "own_wrong": {
+          "n": 1413,
+          "fa": 1136,
+          "fa_pct": 80.4,
+          "wilson95": [
+            78.2,
+            82.4
+          ]
+        },
+        "own_right": {
+          "n": 108,
+          "fa": 60,
+          "fa_pct": 55.6,
+          "wilson95": [
+            46.2,
+            64.6
+          ]
+        }
+      }
+    },
+    "primary_own_wrong": {
+      "mh_or": 1.984,
+      "ci95": [
+        1.614,
+        2.448
+      ],
+      "strata_used": 78,
+      "strata_skipped": 2,
+      "bootstrap_valid": 2000
+    },
+    "secondary_same_way": {
+      "mh_or": 2.177,
+      "ci95": [
+        1.748,
+        2.744
+      ],
+      "strata_used": 78,
+      "strata_skipped": 2,
+      "bootstrap_valid": 2000
+    },
+    "per_evaluator_own_wrong": {
+      "gpt-5.4": {
+        "mh_or": 1.362,
+        "ci95": [
+          0.635,
+          2.502
+        ],
+        "strata_used": 16,
+        "strata_skipped": 0,
+        "bootstrap_valid": 2000
+      },
+      "ds-v4-flash": {
+        "mh_or": 2.11,
+        "ci95": [
+          1.146,
+          3.765
+        ],
+        "strata_used": 16,
+        "strata_skipped": 0,
+        "bootstrap_valid": 2000
+      },
+      "glm-5.3-flash": {
+        "mh_or": 2.156,
+        "ci95": [
+          1.521,
+          3.025
+        ],
+        "strata_used": 15,
+        "strata_skipped": 1,
+        "bootstrap_valid": 2000
+      },
+      "qwen38-flash": {
+        "mh_or": 1.531,
+        "ci95": [
+          0.779,
+          2.832
+        ],
+        "strata_used": 15,
+        "strata_skipped": 1,
+        "bootstrap_valid": 2000
+      },
+      "gpt-6-luna": {
+        "mh_or": 2.346,
+        "ci95": [
+          1.155,
+          4.957
+        ],
+        "strata_used": 16,
+        "strata_skipped": 0,
+        "bootstrap_valid": 2000
+      }
+    },
+    "own_wrong_difficulty_0to2": 1.986,
+    "own_wrong_difficulty_3": 1.981,
+    "difficulty_distribution": {
+      "0": 320,
+      "1": 443,
+      "2": 1532,
+      "3": 5364
+    },
+    "decision": "supported"
+  },
+  "decision_rule_primary_selfcheck": "supported"
+}

@@ -1,0 +1,132 @@
+{
+ "duplicates": {
+  "keys": 572,
+  "disagreeing": 15
+ },
+ "strata_counts": {
+  "ii": 373,
+  "i": 126
+ },
+ "B1": {
+  "selfcheck_FA_i": [
+   41,
+   124
+  ],
+  "rate": 0.3306,
+  "reference": [
+   24,
+   1066
+  ],
+  "p_one_sided": 4.136541914059631e-27,
+  "supported": "True"
+ },
+ "B2": {
+  "selfcheck_FA_ii": [
+   336,
+   369
+  ],
+  "rate": 0.9106,
+  "supported": true
+ },
+ "B3": {
+  "dc": 0.022,
+  "dc_ci95": [
+   -0.05,
+   0.096
+  ],
+  "dd": -0.154,
+  "dd_ci95": [
+   -0.301,
+   -0.017
+  ],
+  "TA": [
+   0.9834,
+   0.9788
+  ],
+  "FA_all": [
+   0.7659,
+   0.7823
+  ],
+  "supported": true
+ },
+ "steelman_FA_i": [
+  59,
+  123
+ ],
+ "steelman_FA_ii": [
+  325,
+  367
+ ],
+ "by_family": {
+  "gpt-5.4": {
+   "FA_i": [
+    18,
+    75
+   ],
+   "FA_ii": [
+    59,
+    70
+   ],
+   "FA_i_steelman": [
+    35,
+    73
+   ]
+  },
+  "ds-v4-flash": {
+   "FA_i": [
+    6,
+    9
+   ],
+   "FA_ii": [
+    64,
+    69
+   ],
+   "FA_i_steelman": [
+    5,
+    9
+   ]
+  },
+  "glm-5.3-flash": {
+   "FA_i": [
+    1,
+    7
+   ],
+   "FA_ii": [
+    49,
+    51
+   ],
+   "FA_i_steelman": [
+    1,
+    7
+   ]
+  },
+  "qwen38-flash": {
+   "FA_i": [
+    5,
+    11
+   ],
+   "FA_ii": [
+    86,
+    91
+   ],
+   "FA_i_steelman": [
+    5,
+    11
+   ]
+  },
+  "gpt-6-luna": {
+   "FA_i": [
+    11,
+    22
+   ],
+   "FA_ii": [
+    78,
+    88
+   ],
+   "FA_i_steelman": [
+    13,
+    23
+   ]
+  }
+ }
+}

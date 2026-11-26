@@ -1,0 +1,193 @@
+{
+ "ds-v4-flash": {
+  "selfcheck": {
+   "as_reported": {
+    "accept": 377,
+    "n": 389,
+    "false_acceptance_pct": 96.9
+   },
+   "dropped": {
+    "accept": 375,
+    "n": 386,
+    "false_acceptance_pct": 97.2
+   },
+   "swapped": {
+    "accept": 377,
+    "n": 389,
+    "false_acceptance_pct": 96.9
+   },
+   "affected_verdicts": 3
+  },
+  "steelman": {
+   "as_reported": {
+    "accept": 367,
+    "n": 389,
+    "false_acceptance_pct": 94.3
+   },
+   "dropped": {
+    "accept": 359,
+    "n": 380,
+    "false_acceptance_pct": 94.5
+   },
+   "swapped": {
+    "accept": 366,
+    "n": 389,
+    "false_acceptance_pct": 94.1
+   },
+   "affected_verdicts": 9
+  }
+ },
+ "glm-5.3-flash": {
+  "selfcheck": {
+   "as_reported": {
+    "accept": 266,
+    "n": 299,
+    "false_acceptance_pct": 89.0
+   },
+   "dropped": {
+    "accept": 254,
+    "n": 285,
+    "false_acceptance_pct": 89.1
+   },
+   "swapped": {
+    "accept": 264,
+    "n": 299,
+    "false_acceptance_pct": 88.3
+   },
+   "affected_verdicts": 14
+  },
+  "steelman": {
+   "as_reported": {
+    "accept": 256,
+    "n": 299,
+    "false_acceptance_pct": 85.6
+   },
+   "dropped": {
+    "accept": 243,
+    "n": 284,
+    "false_acceptance_pct": 85.6
+   },
+   "swapped": {
+    "accept": 251,
+    "n": 299,
+    "false_acceptance_pct": 83.9
+   },
+   "affected_verdicts": 15
+  }
+ },
+ "gpt-5.4": {
+  "selfcheck": {
+   "as_reported": {
+    "accept": 385,
+    "n": 427,
+    "false_acceptance_pct": 90.2
+   },
+   "dropped": {
+    "accept": 385,
+    "n": 427,
+    "false_acceptance_pct": 90.2
+   },
+   "swapped": {
+    "accept": 385,
+    "n": 427,
+    "false_acceptance_pct": 90.2
+   },
+   "affected_verdicts": 0
+  },
+  "steelman": {
+   "as_reported": {
+    "accept": 378,
+    "n": 427,
+    "false_acceptance_pct": 88.5
+   },
+   "dropped": {
+    "accept": 378,
+    "n": 427,
+    "false_acceptance_pct": 88.5
+   },
+   "swapped": {
+    "accept": 378,
+    "n": 427,
+    "false_acceptance_pct": 88.5
+   },
+   "affected_verdicts": 0
+  }
+ },
+ "gpt-6-luna": {
+  "selfcheck": {
+   "as_reported": {
+    "accept": 404,
+    "n": 432,
+    "false_acceptance_pct": 93.5
+   },
+   "dropped": {
+    "accept": 404,
+    "n": 432,
+    "false_acceptance_pct": 93.5
+   },
+   "swapped": {
+    "accept": 404,
+    "n": 432,
+    "false_acceptance_pct": 93.5
+   },
+   "affected_verdicts": 0
+  },
+  "steelman": {
+   "as_reported": {
+    "accept": 375,
+    "n": 432,
+    "false_acceptance_pct": 86.8
+   },
+   "dropped": {
+    "accept": 375,
+    "n": 432,
+    "false_acceptance_pct": 86.8
+   },
+   "swapped": {
+    "accept": 375,
+    "n": 432,
+    "false_acceptance_pct": 86.8
+   },
+   "affected_verdicts": 0
+  }
+ },
+ "qwen38-flash": {
+  "selfcheck": {
+   "as_reported": {
+    "accept": 392,
+    "n": 413,
+    "false_acceptance_pct": 94.9
+   },
+   "dropped": {
+    "accept": 387,
+    "n": 407,
+    "false_acceptance_pct": 95.1
+   },
+   "swapped": {
+    "accept": 392,
+    "n": 413,
+    "false_acceptance_pct": 94.9
+   },
+   "affected_verdicts": 6
+  },
+  "steelman": {
+   "as_reported": {
+    "accept": 374,
+    "n": 413,
+    "false_acceptance_pct": 90.6
+   },
+   "dropped": {
+    "accept": 366,
+    "n": 404,
+    "false_acceptance_pct": 90.6
+   },
+   "swapped": {
+    "accept": 374,
+    "n": 413,
+    "false_acceptance_pct": 90.6
+   },
+   "affected_verdicts": 9
+  }
+ },
+ "affected_verdicts_total": 56
+}

@@ -1,0 +1,91 @@
+{
+ "candidates": 126,
+ "author": [
+  41,
+  124,
+  0.3306
+ ],
+ "others": [
+  86,
+  493,
+  0.1744
+ ],
+ "fisher_one_sided_p": 0.00017101315105978585,
+ "odds_ratio": 2.3377696833847015,
+ "self_specific_supported": true,
+ "by_author": {
+  "ds-v4-flash": {
+   "author": [
+    6,
+    9
+   ],
+   "others": [
+    16,
+    33
+   ]
+  },
+  "glm-5.3-flash": {
+   "author": [
+    1,
+    7
+   ],
+   "others": [
+    10,
+    32
+   ]
+  },
+  "gpt-5.4": {
+   "author": [
+    18,
+    75
+   ],
+   "others": [
+    26,
+    295
+   ]
+  },
+  "gpt-6-luna": {
+   "author": [
+    11,
+    22
+   ],
+   "others": [
+    19,
+    90
+   ]
+  },
+  "qwen38-flash": {
+   "author": [
+    5,
+    11
+   ],
+   "others": [
+    15,
+    43
+   ]
+  }
+ },
+ "by_evaluator": {
+  "gpt-6-luna": [
+   23,
+   102
+  ],
+  "gpt-5.4": [
+   17,
+   51
+  ],
+  "qwen38-flash": [
+   17,
+   115
+  ],
+  "ds-v4-flash": [
+   13,
+   116
+  ],
+  "glm-5.3-flash": [
+   16,
+   109
+  ]
+ },
+ "unparsed_cross": 11
+}

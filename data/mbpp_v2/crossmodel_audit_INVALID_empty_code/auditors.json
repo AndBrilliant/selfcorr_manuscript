@@ -1,0 +1,164 @@
+{
+ "queried_at": "2026-11-24T07:06:27.104231+00:00",
+ "selection_rule": "OpenRouter /api/v1/models; providers anthropic, google, x-ai, mistralai, meta-llama; exclude ids matching flash|mini|lite|nano and evaluated families (openai, deepseek, z-ai, qwen) via provider prefix; newest flagship per provider by created desc; providers taken in fixed priority order anthropic, google, xai until 3 chosen.",
+ "auditors": [
+  "anthropic/claude-fable-5.2",
+  "google/gemini-4-neon",
+  "x-ai/grok-4.7"
+ ],
+ "per_provider_candidates": {
+  "anthropic": [
+   {
+    "id": "anthropic/claude-fable-5.2",
+    "created": 1794253781,
+    "context_length": 1000000,
+    "name": "Anthropic: Claude Fable 5.2"
+   },
+   {
+    "id": "anthropic/claude-fable-5.2:batch",
+    "created": 1794253781,
+    "context_length": 1000000,
+    "name": "Anthropic: Claude Fable 5.2 (batch)"
+   },
+   {
+    "id": "anthropic/claude-haiku-5.5",
+    "created": 1791397883,
+    "context_length": 1000000,
+    "name": "Anthropic: Claude Haiku 5.5"
+   },
+   {
+    "id": "anthropic/claude-haiku-5.5:batch",
+    "created": 1791397883,
+    "context_length": 1000000,
+    "name": "Anthropic: Claude Haiku 5.5 (batch)"
+   },
+   {
+    "id": "anthropic/claude-sonnet-5.5",
+    "created": 1790618686,
+    "context_length": 1000000,
+    "name": "Anthropic: Claude Sonnet 5.5"
+   }
+  ],
+  "google": [
+   {
+    "id": "google/gemini-4-neon",
+    "created": 1795006977,
+    "context_length": 1048576,
+    "name": "Google: Gemini 4 Neon"
+   },
+   {
+    "id": "google/gemini-4-neon:batch",
+    "created": 1795006977,
+    "context_length": 1048576,
+    "name": "Google: Gemini 4 Neon (batch)"
+   },
+   {
+    "id": "google/gemini-4-hydrogen",
+    "created": 1794506460,
+    "context_length": 1048576,
+    "name": "Google: Gemini 4 Hydrogen"
+   },
+   {
+    "id": "google/gemini-4-hydrogen:batch",
+    "created": 1794506460,
+    "context_length": 1048576,
+    "name": "Google: Gemini 4 Hydrogen (batch)"
+   },
+   {
+    "id": "google/gemini-4-carbon",
+    "created": 1794326871,
+    "context_length": 1048576,
+    "name": "Google: Gemini 4 Carbon"
+   }
+  ],
+  "xai": [
+   {
+    "id": "x-ai/grok-4.7",
+    "created": 1790007541,
+    "context_length": 500000,
+    "name": "SpaceXSI: Grok 4.7"
+   },
+   {
+    "id": "x-ai/grok-4.7:batch",
+    "created": 1790007541,
+    "context_length": 500000,
+    "name": "SpaceXSI: Grok 4.7 (batch)"
+   },
+   {
+    "id": "x-ai/grok-4.6",
+    "created": 1786548957,
+    "context_length": 500000,
+    "name": "SpaceXSI: Grok 4.6"
+   },
+   {
+    "id": "x-ai/grok-4.6:batch",
+    "created": 1786548957,
+    "context_length": 500000,
+    "name": "SpaceXSI: Grok 4.6 (batch)"
+   },
+   {
+    "id": "x-ai/grok-4.5",
+    "created": 1783523154,
+    "context_length": 500000,
+    "name": "SpaceXSI: Grok 4.5"
+   }
+  ],
+  "mistralai": [
+   {
+    "id": "mistralai/mistral-large-4-0",
+    "created": 1791294122,
+    "context_length": 1048576,
+    "name": "Mistral: Mistral Large 4"
+   },
+   {
+    "id": "mistralai/mistral-large-2512",
+    "created": 1764624472,
+    "context_length": 262144,
+    "name": "Mistral: Mistral Large 3 2512"
+   },
+   {
+    "id": "mistralai/mistral-large-2407",
+    "created": 1731978415,
+    "context_length": 131072,
+    "name": "Mistral Large 2407"
+   },
+   {
+    "id": "mistralai/mistral-large",
+    "created": 1708905600,
+    "context_length": 128000,
+    "name": "Mistral Large"
+   }
+  ],
+  "meta": [
+   {
+    "id": "meta-llama/llama-4-maverick",
+    "created": 1743881822,
+    "context_length": 524288,
+    "name": "Meta: Llama 4 Maverick"
+   },
+   {
+    "id": "meta-llama/llama-4-scout",
+    "created": 1743881519,
+    "context_length": 327680,
+    "name": "Meta: Llama 4 Scout"
+   }
+  ]
+ },
+ "selection_log": [
+  {
+   "provider": "anthropic",
+   "selected": "anthropic/claude-fable-5.2",
+   "reason": "newest flagship (created desc, flash/mini/lite/nano excluded), priority order ['anthropic', 'google', 'xai']"
+  },
+  {
+   "provider": "google",
+   "selected": "google/gemini-4-neon",
+   "reason": "newest flagship (created desc, flash/mini/lite/nano excluded), priority order ['anthropic', 'google', 'xai']"
+  },
+  {
+   "provider": "xai",
+   "selected": "x-ai/grok-4.7",
+   "reason": "newest flagship (created desc, flash/mini/lite/nano excluded), priority order ['anthropic', 'google', 'xai']"
+  }
+ ]
+}

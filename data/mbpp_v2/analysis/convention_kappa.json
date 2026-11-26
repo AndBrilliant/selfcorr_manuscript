@@ -1,0 +1,125 @@
+{
+ "ds-v4-flash": {
+  "n_T0": 389,
+  "n_sub": 365,
+  "classes": {
+   "order": 14,
+   "substantive": 365,
+   "type_format": 10
+  },
+  "selfcheck": {
+   "kappa": 96.9,
+   "kappa_sub": 97.0,
+   "kappa_conv": 95.8,
+   "E": 0.029,
+   "E_sub": 0.028
+  },
+  "steelman": {
+   "kappa": 94.3,
+   "kappa_sub": 94.5,
+   "kappa_conv": 91.7,
+   "E": 0.068,
+   "E_sub": 0.065
+  }
+ },
+ "glm-5.3-flash": {
+  "n_T0": 299,
+  "n_sub": 275,
+  "classes": {
+   "substantive": 275,
+   "order": 12,
+   "type_format": 9,
+   "arg_packing": 1,
+   "passes_strict": 2
+  },
+  "selfcheck": {
+   "kappa": 89.0,
+   "kappa_sub": 88.7,
+   "kappa_conv": 91.7,
+   "E": 0.133,
+   "E_sub": 0.137
+  },
+  "steelman": {
+   "kappa": 85.6,
+   "kappa_sub": 85.1,
+   "kappa_conv": 91.7,
+   "E": 0.189,
+   "E_sub": 0.197
+  }
+ },
+ "qwen38-flash": {
+  "n_T0": 413,
+  "n_sub": 385,
+  "classes": {
+   "substantive": 385,
+   "order": 15,
+   "type_format": 9,
+   "passes_strict": 2,
+   "arg_packing": 2
+  },
+  "selfcheck": {
+   "kappa": 94.9,
+   "kappa_sub": 95.1,
+   "kappa_conv": 92.9,
+   "E": 0.064,
+   "E_sub": 0.062
+  },
+  "steelman": {
+   "kappa": 90.6,
+   "kappa_sub": 90.9,
+   "kappa_conv": 85.7,
+   "E": 0.104,
+   "E_sub": 0.099
+  }
+ },
+ "gpt-5.4": {
+  "n_T0": 427,
+  "n_sub": 401,
+  "classes": {
+   "type_format": 8,
+   "substantive": 401,
+   "order": 14,
+   "passes_strict": 2,
+   "arg_packing": 2
+  },
+  "selfcheck": {
+   "kappa": 90.2,
+   "kappa_sub": 89.8,
+   "kappa_conv": 96.2,
+   "E": 0.106,
+   "E_sub": 0.113
+  },
+  "steelman": {
+   "kappa": 88.5,
+   "kappa_sub": 88.5,
+   "kappa_conv": 88.5,
+   "E": 0.103,
+   "E_sub": 0.103
+  }
+ },
+ "gpt-6-luna": {
+  "n_T0": 432,
+  "n_sub": 406,
+  "classes": {
+   "order": 13,
+   "substantive": 406,
+   "passes_strict": 4,
+   "type_format": 8,
+   "arg_packing": 1
+  },
+  "selfcheck": {
+   "kappa": 93.5,
+   "kappa_sub": 93.6,
+   "kappa_conv": 92.3,
+   "E": 0.045,
+   "E_sub": 0.044
+  },
+  "steelman": {
+   "kappa": 86.8,
+   "kappa_sub": 86.7,
+   "kappa_conv": 88.5,
+   "E": 0.105,
+   "E_sub": 0.107
+  }
+ }
+}

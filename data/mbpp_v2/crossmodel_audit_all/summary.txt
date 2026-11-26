@@ -1,0 +1,75 @@
+MBPP v2 cross-model audit (corrected rerun) - summary
+auditors: anthropic/claude-opus-5.5, x-ai/grok-4.7 (both reasoning effort low)
+sample: 1986 incorrect candidates across 5 families, calls: 3972, retries: 0, total cost: $24.28
+
+(a) unparsed per auditor:
+    anthropic/claude-opus-5.5: 0
+    x-ai/grok-4.7: 6
+
+(b) agreement (both parsed, n=1980):
+    Cohen kappa = 0.6313
+
+(c) class counts (parsed labels only, no overwriting):
+    KNOWABLE_agreed: 49
+    NOT_KNOWABLE_agreed: 1877
+    split: 54
+    no_class: 6
+
+(d) class shares, Wilson 95%%:
+    KNOWABLE_agreed: 0.025 [0.019, 0.033] (n=1986)
+    NOT_KNOWABLE_agreed: 0.945 [0.934, 0.954] (n=1986)
+    split: 0.027 [0.021, 0.035] (n=1986)
+    no_class: 0.003 [0.001, 0.007] (n=1986)
+    per-family class counts:
+      ds-v4-flash: {"KNOWABLE_agreed": 3, "NOT_KNOWABLE_agreed": 379, "split": 13, "no_class": 1}
+      glm-5.3-flash: {"KNOWABLE_agreed": 20, "NOT_KNOWABLE_agreed": 273, "split": 12, "no_class": 2}
+      gpt-5.4: {"KNOWABLE_agreed": 13, "NOT_KNOWABLE_agreed": 410, "split": 10, "no_class": 0}
+      gpt-6-luna: {"KNOWABLE_agreed": 6, "NOT_KNOWABLE_agreed": 417, "split": 9, "no_class": 2}
+      qwen38-flash: {"KNOWABLE_agreed": 7, "NOT_KNOWABLE_agreed": 398, "split": 10, "no_class": 1}
+
+(selfcheck) false acceptance of incorrect candidates:
+    overall KNOWABLE_agreed: FA 0.653 [0.513, 0.771] (n=49)
+    overall split: FA 0.641 [0.507, 0.757] (n=53)
+    overall NOT_KNOWABLE_agreed: FA 0.946 [0.935, 0.955] (n=1867)
+      ds-v4-flash KNOWABLE_agreed: FA 1.000 [0.439, 1.000] (n=3)
+      ds-v4-flash NOT_KNOWABLE_agreed: FA 0.973 [0.952, 0.986] (n=375)
+      glm-5.3-flash KNOWABLE_agreed: FA 0.550 [0.342, 0.742] (n=20)
+      glm-5.3-flash NOT_KNOWABLE_agreed: FA 0.929 [0.892, 0.954] (n=269)
+      gpt-5.4 KNOWABLE_agreed: FA 0.769 [0.497, 0.918] (n=13)
+      gpt-5.4 NOT_KNOWABLE_agreed: FA 0.915 [0.884, 0.938] (n=410)
+      gpt-6-luna KNOWABLE_agreed: FA 0.500 [0.188, 0.812] (n=6)
+      gpt-6-luna NOT_KNOWABLE_agreed: FA 0.947 [0.921, 0.965] (n=415)
+      qwen38-flash KNOWABLE_agreed: FA 0.714 [0.359, 0.918] (n=7)
+      qwen38-flash NOT_KNOWABLE_agreed: FA 0.962 [0.939, 0.977] (n=398)
+
+(steelman) false acceptance of incorrect candidates:
+    overall KNOWABLE_agreed: FA 0.396 [0.270, 0.537] (n=48)
+    overall split: FA 0.640 [0.501, 0.759] (n=50)
+    overall NOT_KNOWABLE_agreed: FA 0.913 [0.899, 0.925] (n=1864)
+      ds-v4-flash KNOWABLE_agreed: FA 1.000 [0.439, 1.000] (n=3)
+      ds-v4-flash NOT_KNOWABLE_agreed: FA 0.947 [0.919, 0.965] (n=376)
+      glm-5.3-flash KNOWABLE_agreed: FA 0.300 [0.145, 0.519] (n=20)
+      glm-5.3-flash NOT_KNOWABLE_agreed: FA 0.904 [0.863, 0.933] (n=270)
+      gpt-5.4 KNOWABLE_agreed: FA 0.385 [0.177, 0.645] (n=13)
+      gpt-5.4 NOT_KNOWABLE_agreed: FA 0.911 [0.879, 0.935] (n=404)
+      gpt-6-luna KNOWABLE_agreed: FA 0.333 [0.097, 0.700] (n=6)
+      gpt-6-luna NOT_KNOWABLE_agreed: FA 0.887 [0.853, 0.914] (n=417)
+      qwen38-flash KNOWABLE_agreed: FA 0.500 [0.188, 0.812] (n=6)
+      qwen38-flash NOT_KNOWABLE_agreed: FA 0.917 [0.886, 0.940] (n=397)
+
+(cross matrix, selfcheck arm) false acceptance by other evaluators (row unit):
+    overall KNOWABLE_agreed: FA 0.282 [0.224, 0.349] (n=195)
+    overall split: FA 0.464 [0.398, 0.532] (n=209)
+    overall NOT_KNOWABLE_agreed: FA 0.851 [0.843, 0.859] (n=7371)
+
+(cross matrix, steelman arm) false acceptance by other evaluators (row unit):
+    overall KNOWABLE_agreed: FA 0.238 [0.184, 0.303] (n=193)
+    overall split: FA 0.459 [0.393, 0.527] (n=209)
+    overall NOT_KNOWABLE_agreed: FA 0.841 [0.833, 0.849] (n=7383)
+
+(g) self-check FA difference, KNOWABLE_agreed minus NOT_KNOWABLE_agreed:
+    diff = -0.2928, task-clustered bootstrap 95% CI [-0.4396, -0.1621] (2000 resamples of 497 tasks, seed 20261124)
+
+(h) sanity - empty/missing-program mentions per auditor (must be ~0):
+    anthropic/claude-opus-5.5: 17
+    x-ai/grok-4.7: 28

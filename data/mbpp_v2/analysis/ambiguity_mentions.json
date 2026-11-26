@@ -1,0 +1,208 @@
+{
+ "ds-v4-flash|selfcheck": {
+  "correct": {
+   "n": 535,
+   "flagged": 49,
+   "pct": 9.2
+  },
+  "incorrect_accepted": {
+   "n": 380,
+   "flagged": 61,
+   "pct": 16.1
+  },
+  "incorrect_rejected": {
+   "n": 12,
+   "flagged": 0,
+   "pct": 0.0
+  }
+ },
+ "ds-v4-flash|steelman": {
+  "correct": {
+   "n": 534,
+   "flagged": 426,
+   "pct": 79.8
+  },
+  "incorrect_accepted": {
+   "n": 370,
+   "flagged": 340,
+   "pct": 91.9
+  },
+  "incorrect_rejected": {
+   "n": 22,
+   "flagged": 16,
+   "pct": 72.7
+  }
+ },
+ "glm-5.3-flash|selfcheck": {
+  "correct": {
+   "n": 623,
+   "flagged": 95,
+   "pct": 15.2
+  },
+  "incorrect_accepted": {
+   "n": 270,
+   "flagged": 57,
+   "pct": 21.1
+  },
+  "incorrect_rejected": {
+   "n": 34,
+   "flagged": 7,
+   "pct": 20.6
+  }
+ },
+ "glm-5.3-flash|steelman": {
+  "correct": {
+   "n": 629,
+   "flagged": 478,
+   "pct": 76.0
+  },
+  "incorrect_accepted": {
+   "n": 259,
+   "flagged": 215,
+   "pct": 83.0
+  },
+  "incorrect_rejected": {
+   "n": 44,
+   "flagged": 31,
+   "pct": 70.5
+  }
+ },
+ "gpt-5.4|selfcheck": {
+  "correct": {
+   "n": 514,
+   "flagged": 105,
+   "pct": 20.4
+  },
+  "incorrect_accepted": {
+   "n": 390,
+   "flagged": 138,
+   "pct": 35.4
+  },
+  "incorrect_rejected": {
+   "n": 43,
+   "flagged": 15,
+   "pct": 34.9
+  }
+ },
+ "gpt-5.4|steelman": {
+  "correct": {
+   "n": 511,
+   "flagged": 428,
+   "pct": 83.8
+  },
+  "incorrect_accepted": {
+   "n": 378,
+   "flagged": 353,
+   "pct": 93.4
+  },
+  "incorrect_rejected": {
+   "n": 49,
+   "flagged": 41,
+   "pct": 83.7
+  }
+ },
+ "gpt-6-luna|selfcheck": {
+  "correct": {
+   "n": 511,
+   "flagged": 10,
+   "pct": 2.0
+  },
+  "incorrect_accepted": {
+   "n": 404,
+   "flagged": 18,
+   "pct": 4.5
+  },
+  "incorrect_rejected": {
+   "n": 28,
+   "flagged": 1,
+   "pct": 3.6
+  }
+ },
+ "gpt-6-luna|steelman": {
+  "correct": {
+   "n": 513,
+   "flagged": 365,
+   "pct": 71.2
+  },
+  "incorrect_accepted": {
+   "n": 377,
+   "flagged": 313,
+   "pct": 83.0
+  },
+  "incorrect_rejected": {
+   "n": 57,
+   "flagged": 29,
+   "pct": 50.9
+  }
+ },
+ "qwen38-flash|selfcheck": {
+  "correct": {
+   "n": 528,
+   "flagged": 41,
+   "pct": 7.8
+  },
+  "incorrect_accepted": {
+   "n": 394,
+   "flagged": 42,
+   "pct": 10.7
+  },
+  "incorrect_rejected": {
+   "n": 21,
+   "flagged": 5,
+   "pct": 23.8
+  }
+ },
+ "qwen38-flash|steelman": {
+  "correct": {
+   "n": 527,
+   "flagged": 456,
+   "pct": 86.5
+  },
+  "incorrect_accepted": {
+   "n": 374,
+   "flagged": 346,
+   "pct": 92.5
+  },
+  "incorrect_rejected": {
+   "n": 39,
+   "flagged": 31,
+   "pct": 79.5
+  }
+ },
+ "pooled": {
+  "selfcheck": {
+   "correct": {
+    "n": 2711,
+    "flagged": 300,
+    "pct": 11.1
+   },
+   "incorrect_accepted": {
+    "n": 1838,
+    "flagged": 316,
+    "pct": 17.2
+   },
+   "incorrect_rejected": {
+    "n": 138,
+    "flagged": 28,
+    "pct": 20.3
+   }
+  },
+  "steelman": {
+   "correct": {
+    "n": 2714,
+    "flagged": 2153,
+    "pct": 79.3
+   },
+   "incorrect_accepted": {
+    "n": 1758,
+    "flagged": 1567,
+    "pct": 89.1
+   },
+   "incorrect_rejected": {
+    "n": 211,
+    "flagged": 148,
+    "pct": 70.1
+   }
+  }
+ }
+}

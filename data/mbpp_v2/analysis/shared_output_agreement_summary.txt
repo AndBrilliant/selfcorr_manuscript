@@ -1,0 +1,6 @@
+Output agreement within the shared-blind-spot test (MBPP cross-evaluation)
+
+[selfcheck] FA own right 64.3% (n=1101); own wrong, same output 91.0% (n=4927); own wrong, different output 70.9% (n=1624)
+  MH OR same output vs own right {'or': 3.779, 'ci95': [2.865, 4.956]}; different output vs own right {'or': 0.797, 'ci95': [0.587, 1.06]}
+[steelman] FA own right 65.9% (n=1116); own wrong, same output 89.3% (n=4920); own wrong, different output 70.0% (n=1623)
+  MH OR same output vs own right {'or': 3.501, 'ci95': [2.741, 4.523]}; different output vs own right {'or': 0.754, 'ci95': [0.574, 0.959]}

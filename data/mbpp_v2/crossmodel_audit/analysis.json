@@ -1,0 +1,826 @@
+{
+ "auditors": [
+  "anthropic/claude-opus-5.5",
+  "x-ai/grok-4.7"
+ ],
+ "n_sample": 650,
+ "n_calls": 1300,
+ "retries": 0,
+ "total_cost_usd": 8.06,
+ "a_unparsed_by_auditor": {
+  "anthropic/claude-opus-5.5": 0,
+  "x-ai/grok-4.7": 4
+ },
+ "b_cohen_kappa": {
+  "kappa": 0.5715,
+  "n": 646
+ },
+ "c_class_counts": {
+  "KNOWABLE_agreed": 18,
+  "NOT_KNOWABLE_agreed": 603,
+  "split": 25,
+  "no_class": 4
+ },
+ "d_shares": {
+  "overall": {
+   "KNOWABLE_agreed": {
+    "p": 0.0277,
+    "lo": 0.0176,
+    "hi": 0.0433,
+    "k": 18,
+    "n": 650
+   },
+   "NOT_KNOWABLE_agreed": {
+    "p": 0.9277,
+    "lo": 0.9052,
+    "hi": 0.9452,
+    "k": 603,
+    "n": 650
+   },
+   "split": {
+    "p": 0.0385,
+    "lo": 0.0262,
+    "hi": 0.0562,
+    "k": 25,
+    "n": 650
+   },
+   "no_class": {
+    "p": 0.0062,
+    "lo": 0.0024,
+    "hi": 0.0157,
+    "k": 4,
+    "n": 650
+   }
+  },
+  "by_family": {
+   "ds-v4-flash": {
+    "KNOWABLE_agreed": {
+     "p": 0.0154,
+     "lo": 0.0042,
+     "hi": 0.0544,
+     "k": 2,
+     "n": 130
+    },
+    "NOT_KNOWABLE_agreed": {
+     "p": 0.9462,
+     "lo": 0.893,
+     "hi": 0.9737,
+     "k": 123,
+     "n": 130
+    },
+    "split": {
+     "p": 0.0385,
+     "lo": 0.0165,
+     "hi": 0.0869,
+     "k": 5,
+     "n": 130
+    },
+    "no_class": {
+     "p": 0.0,
+     "lo": 0.0,
+     "hi": 0.0287,
+     "k": 0,
+     "n": 130
+    }
+   },
+   "glm-5.3-flash": {
+    "KNOWABLE_agreed": {
+     "p": 0.0846,
+     "lo": 0.0479,
+     "hi": 0.1452,
+     "k": 11,
+     "n": 130
+    },
+    "NOT_KNOWABLE_agreed": {
+     "p": 0.8769,
+     "lo": 0.8094,
+     "hi": 0.9228,
+     "k": 114,
+     "n": 130
+    },
+    "split": {
+     "p": 0.0308,
+     "lo": 0.012,
+     "hi": 0.0764,
+     "k": 4,
+     "n": 130
+    },
+    "no_class": {
+     "p": 0.0077,
+     "lo": 0.0014,
+     "hi": 0.0423,
+     "k": 1,
+     "n": 130
+    }
+   },
+   "gpt-5.4": {
+    "KNOWABLE_agreed": {
+     "p": 0.0154,
+     "lo": 0.0042,
+     "hi": 0.0544,
+     "k": 2,
+     "n": 130
+    },
+    "NOT_KNOWABLE_agreed": {
+     "p": 0.9462,
+     "lo": 0.893,
+     "hi": 0.9737,
+     "k": 123,
+     "n": 130
+    },
+    "split": {
+     "p": 0.0385,
+     "lo": 0.0165,
+     "hi": 0.0869,
+     "k": 5,
+     "n": 130
+    },
+    "no_class": {
+     "p": 0.0,
+     "lo": 0.0,
+     "hi": 0.0287,
+     "k": 0,
+     "n": 130
+    }
+   },
+   "gpt-6-luna": {
+    "KNOWABLE_agreed": {
+     "p": 0.0154,
+     "lo": 0.0042,
+     "hi": 0.0544,
+     "k": 2,
+     "n": 130
+    },
+    "NOT_KNOWABLE_agreed": {
+     "p": 0.9385,
+     "lo": 0.8833,
+     "hi": 0.9685,
+     "k": 122,
+     "n": 130
+    },
+    "split": {
+     "p": 0.0308,
+     "lo": 0.012,
+     "hi": 0.0764,
+     "k": 4,
+     "n": 130
+    },
+    "no_class": {
+     "p": 0.0154,
+     "lo": 0.0042,
+     "hi": 0.0544,
+     "k": 2,
+     "n": 130
+    }
+   },
+   "qwen38-flash": {
+    "KNOWABLE_agreed": {
+     "p": 0.0077,
+     "lo": 0.0014,
+     "hi": 0.0423,
+     "k": 1,
+     "n": 130
+    },
+    "NOT_KNOWABLE_agreed": {
+     "p": 0.9308,
+     "lo": 0.8737,
+     "hi": 0.9632,
+     "k": 121,
+     "n": 130
+    },
+    "split": {
+     "p": 0.0538,
+     "lo": 0.0263,
+     "hi": 0.107,
+     "k": 7,
+     "n": 130
+    },
+    "no_class": {
+     "p": 0.0077,
+     "lo": 0.0014,
+     "hi": 0.0423,
+     "k": 1,
+     "n": 130
+    }
+   }
+  }
+ },
+ "d_class_counts_by_family": {
+  "ds-v4-flash": {
+   "KNOWABLE_agreed": 2,
+   "NOT_KNOWABLE_agreed": 123,
+   "split": 5,
+   "no_class": 0
+  },
+  "glm-5.3-flash": {
+   "KNOWABLE_agreed": 11,
+   "NOT_KNOWABLE_agreed": 114,
+   "split": 4,
+   "no_class": 1
+  },
+  "gpt-5.4": {
+   "KNOWABLE_agreed": 2,
+   "NOT_KNOWABLE_agreed": 123,
+   "split": 5,
+   "no_class": 0
+  },
+  "gpt-6-luna": {
+   "KNOWABLE_agreed": 2,
+   "NOT_KNOWABLE_agreed": 122,
+   "split": 4,
+   "no_class": 2
+  },
+  "qwen38-flash": {
+   "KNOWABLE_agreed": 1,
+   "NOT_KNOWABLE_agreed": 121,
+   "split": 7,
+   "no_class": 1
+  }
+ },
+ "e_false_acceptance": {
+  "selfcheck": {
+   "overall": {
+    "KNOWABLE_agreed": {
+     "p": 0.7778,
+     "lo": 0.5479,
+     "hi": 0.91,
+     "k": 14,
+     "n": 18
+    },
+    "split": {
+     "p": 0.6667,
+     "lo": 0.4671,
+     "hi": 0.8203,
+     "k": 16,
+     "n": 24
+    },
+    "NOT_KNOWABLE_agreed": {
+     "p": 0.9367,
+     "lo": 0.9143,
+     "hi": 0.9535,
+     "k": 562,
+     "n": 600
+    }
+   },
+   "by_family": {
+    "ds-v4-flash": {
+     "KNOWABLE_agreed": {
+      "p": 1.0,
+      "lo": 0.3424,
+      "hi": 1.0,
+      "k": 2,
+      "n": 2
+     },
+     "split": {
+      "p": 0.6,
+      "lo": 0.2307,
+      "hi": 0.8824,
+      "k": 3,
+      "n": 5
+     },
+     "NOT_KNOWABLE_agreed": {
+      "p": 0.9587,
+      "lo": 0.9069,
+      "hi": 0.9822,
+      "k": 116,
+      "n": 121
+     }
+    },
+    "glm-5.3-flash": {
+     "KNOWABLE_agreed": {
+      "p": 0.7273,
+      "lo": 0.4344,
+      "hi": 0.9025,
+      "k": 8,
+      "n": 11
+     },
+     "split": {
+      "p": 1.0,
+      "lo": 0.5101,
+      "hi": 1.0,
+      "k": 4,
+      "n": 4
+     },
+     "NOT_KNOWABLE_agreed": {
+      "p": 0.9115,
+      "lo": 0.8447,
+      "hi": 0.9512,
+      "k": 103,
+      "n": 113
+     }
+    },
+    "gpt-5.4": {
+     "KNOWABLE_agreed": {
+      "p": 0.5,
+      "lo": 0.0945,
+      "hi": 0.9055,
+      "k": 1,
+      "n": 2
+     },
+     "split": {
+      "p": 0.6,
+      "lo": 0.2307,
+      "hi": 0.8824,
+      "k": 3,
+      "n": 5
+     },
+     "NOT_KNOWABLE_agreed": {
+      "p": 0.878,
+      "lo": 0.8085,
+      "hi": 0.9247,
+      "k": 108,
+      "n": 123
+     }
+    },
+    "gpt-6-luna": {
+     "KNOWABLE_agreed": {
+      "p": 1.0,
+      "lo": 0.3424,
+      "hi": 1.0,
+      "k": 2,
+      "n": 2
+     },
+     "split": {
+      "p": 0.5,
+      "lo": 0.15,
+      "hi": 0.85,
+      "k": 2,
+      "n": 4
+     },
+     "NOT_KNOWABLE_agreed": {
+      "p": 0.959,
+      "lo": 0.9076,
+      "hi": 0.9824,
+      "k": 117,
+      "n": 122
+     }
+    },
+    "qwen38-flash": {
+     "KNOWABLE_agreed": {
+      "p": 1.0,
+      "lo": 0.2065,
+      "hi": 1.0,
+      "k": 1,
+      "n": 1
+     },
+     "split": {
+      "p": 0.6667,
+      "lo": 0.3,
+      "hi": 0.9032,
+      "k": 4,
+      "n": 6
+     },
+     "NOT_KNOWABLE_agreed": {
+      "p": 0.9752,
+      "lo": 0.9296,
+      "hi": 0.9915,
+      "k": 118,
+      "n": 121
+     }
+    }
+   }
+  },
+  "steelman": {
+   "overall": {
+    "KNOWABLE_agreed": {
+     "p": 0.5,
+     "lo": 0.2903,
+     "hi": 0.7097,
+     "k": 9,
+     "n": 18
+    },
+    "split": {
+     "p": 0.5455,
+     "lo": 0.3466,
+     "hi": 0.7308,
+     "k": 12,
+     "n": 22
+    },
+    "NOT_KNOWABLE_agreed": {
+     "p": 0.9012,
+     "lo": 0.8746,
+     "hi": 0.9226,
+     "k": 538,
+     "n": 597
+    }
+   },
+   "by_family": {
+    "ds-v4-flash": {
+     "KNOWABLE_agreed": {
+      "p": 1.0,
+      "lo": 0.3424,
+      "hi": 1.0,
+      "k": 2,
+      "n": 2
+     },
+     "split": {
+      "p": 0.75,
+      "lo": 0.3006,
+      "hi": 0.9544,
+      "k": 3,
+      "n": 4
+     },
+     "NOT_KNOWABLE_agreed": {
+      "p": 0.9256,
+      "lo": 0.8647,
+      "hi": 0.9604,
+      "k": 112,
+      "n": 121
+     }
+    },
+    "glm-5.3-flash": {
+     "KNOWABLE_agreed": {
+      "p": 0.2727,
+      "lo": 0.0975,
+      "hi": 0.5656,
+      "k": 3,
+      "n": 11
+     },
+     "split": {
+      "p": 1.0,
+      "lo": 0.4385,
+      "hi": 1.0,
+      "k": 3,
+      "n": 3
+     },
+     "NOT_KNOWABLE_agreed": {
+      "p": 0.8919,
+      "lo": 0.8205,
+      "hi": 0.9371,
+      "k": 99,
+      "n": 111
+     }
+    },
+    "gpt-5.4": {
+     "KNOWABLE_agreed": {
+      "p": 0.5,
+      "lo": 0.0945,
+      "hi": 0.9055,
+      "k": 1,
+      "n": 2
+     },
+     "split": {
+      "p": 0.4,
+      "lo": 0.1176,
+      "hi": 0.7693,
+      "k": 2,
+      "n": 5
+     },
+     "NOT_KNOWABLE_agreed": {
+      "p": 0.8934,
+      "lo": 0.8262,
+      "hi": 0.9367,
+      "k": 109,
+      "n": 122
+     }
+    },
+    "gpt-6-luna": {
+     "KNOWABLE_agreed": {
+      "p": 1.0,
+      "lo": 0.3424,
+      "hi": 1.0,
+      "k": 2,
+      "n": 2
+     },
+     "split": {
+      "p": 0.0,
+      "lo": 0.0,
+      "hi": 0.4899,
+      "k": 0,
+      "n": 4
+     },
+     "NOT_KNOWABLE_agreed": {
+      "p": 0.9098,
+      "lo": 0.8457,
+      "hi": 0.9489,
+      "k": 111,
+      "n": 122
+     }
+    },
+    "qwen38-flash": {
+     "KNOWABLE_agreed": {
+      "p": 1.0,
+      "lo": 0.2065,
+      "hi": 1.0,
+      "k": 1,
+      "n": 1
+     },
+     "split": {
+      "p": 0.6667,
+      "lo": 0.3,
+      "hi": 0.9032,
+      "k": 4,
+      "n": 6
+     },
+     "NOT_KNOWABLE_agreed": {
+      "p": 0.8843,
+      "lo": 0.8151,
+      "hi": 0.9298,
+      "k": 107,
+      "n": 121
+     }
+    }
+   }
+  }
+ },
+ "f_cross_matrix_false_acceptance": {
+  "selfcheck": {
+   "overall": {
+    "KNOWABLE_agreed": {
+     "p": 0.2778,
+     "lo": 0.1876,
+     "hi": 0.3905,
+     "k": 20,
+     "n": 72
+    },
+    "split": {
+     "p": 0.449,
+     "lo": 0.3543,
+     "hi": 0.5475,
+     "k": 44,
+     "n": 98
+    },
+    "NOT_KNOWABLE_agreed": {
+     "p": 0.8438,
+     "lo": 0.8286,
+     "hi": 0.8579,
+     "k": 1999,
+     "n": 2369
+    }
+   },
+   "by_family": {
+    "ds-v4-flash": {
+     "KNOWABLE_agreed": {
+      "p": 0.5,
+      "lo": 0.2152,
+      "hi": 0.7848,
+      "k": 4,
+      "n": 8
+     },
+     "split": {
+      "p": 0.25,
+      "lo": 0.1119,
+      "hi": 0.4687,
+      "k": 5,
+      "n": 20
+     },
+     "NOT_KNOWABLE_agreed": {
+      "p": 0.8859,
+      "lo": 0.8544,
+      "hi": 0.9113,
+      "k": 427,
+      "n": 482
+     }
+    },
+    "glm-5.3-flash": {
+     "KNOWABLE_agreed": {
+      "p": 0.25,
+      "lo": 0.1457,
+      "hi": 0.3944,
+      "k": 11,
+      "n": 44
+     },
+     "split": {
+      "p": 0.5625,
+      "lo": 0.3318,
+      "hi": 0.769,
+      "k": 9,
+      "n": 16
+     },
+     "NOT_KNOWABLE_agreed": {
+      "p": 0.8106,
+      "lo": 0.772,
+      "hi": 0.844,
+      "k": 368,
+      "n": 454
+     }
+    },
+    "gpt-5.4": {
+     "KNOWABLE_agreed": {
+      "p": 0.375,
+      "lo": 0.1368,
+      "hi": 0.6943,
+      "k": 3,
+      "n": 8
+     },
+     "split": {
+      "p": 0.4737,
+      "lo": 0.2733,
+      "hi": 0.6829,
+      "k": 9,
+      "n": 19
+     },
+     "NOT_KNOWABLE_agreed": {
+      "p": 0.8254,
+      "lo": 0.7889,
+      "hi": 0.8567,
+      "k": 397,
+      "n": 481
+     }
+    },
+    "gpt-6-luna": {
+     "KNOWABLE_agreed": {
+      "p": 0.125,
+      "lo": 0.0224,
+      "hi": 0.4709,
+      "k": 1,
+      "n": 8
+     },
+     "split": {
+      "p": 0.5,
+      "lo": 0.28,
+      "hi": 0.72,
+      "k": 8,
+      "n": 16
+     },
+     "NOT_KNOWABLE_agreed": {
+      "p": 0.8608,
+      "lo": 0.8267,
+      "hi": 0.889,
+      "k": 408,
+      "n": 474
+     }
+    },
+    "qwen38-flash": {
+     "KNOWABLE_agreed": {
+      "p": 0.25,
+      "lo": 0.0456,
+      "hi": 0.6994,
+      "k": 1,
+      "n": 4
+     },
+     "split": {
+      "p": 0.4815,
+      "lo": 0.3074,
+      "hi": 0.6601,
+      "k": 13,
+      "n": 27
+     },
+     "NOT_KNOWABLE_agreed": {
+      "p": 0.8347,
+      "lo": 0.7988,
+      "hi": 0.8653,
+      "k": 399,
+      "n": 478
+     }
+    }
+   }
+  },
+  "steelman": {
+   "overall": {
+    "KNOWABLE_agreed": {
+     "p": 0.2639,
+     "lo": 0.1759,
+     "hi": 0.3758,
+     "k": 19,
+     "n": 72
+    },
+    "split": {
+     "p": 0.4167,
+     "lo": 0.3231,
+     "hi": 0.5166,
+     "k": 40,
+     "n": 96
+    },
+    "NOT_KNOWABLE_agreed": {
+     "p": 0.8362,
+     "lo": 0.8208,
+     "hi": 0.8506,
+     "k": 1981,
+     "n": 2369
+    }
+   },
+   "by_family": {
+    "ds-v4-flash": {
+     "KNOWABLE_agreed": {
+      "p": 0.5,
+      "lo": 0.2152,
+      "hi": 0.7848,
+      "k": 4,
+      "n": 8
+     },
+     "split": {
+      "p": 0.35,
+      "lo": 0.1812,
+      "hi": 0.5671,
+      "k": 7,
+      "n": 20
+     },
+     "NOT_KNOWABLE_agreed": {
+      "p": 0.8361,
+      "lo": 0.8004,
+      "hi": 0.8665,
+      "k": 403,
+      "n": 482
+     }
+    },
+    "glm-5.3-flash": {
+     "KNOWABLE_agreed": {
+      "p": 0.2273,
+      "lo": 0.1284,
+      "hi": 0.3699,
+      "k": 10,
+      "n": 44
+     },
+     "split": {
+      "p": 0.4375,
+      "lo": 0.231,
+      "hi": 0.6682,
+      "k": 7,
+      "n": 16
+     },
+     "NOT_KNOWABLE_agreed": {
+      "p": 0.789,
+      "lo": 0.7492,
+      "hi": 0.824,
+      "k": 359,
+      "n": 455
+     }
+    },
+    "gpt-5.4": {
+     "KNOWABLE_agreed": {
+      "p": 0.375,
+      "lo": 0.1368,
+      "hi": 0.6943,
+      "k": 3,
+      "n": 8
+     },
+     "split": {
+      "p": 0.3684,
+      "lo": 0.1915,
+      "hi": 0.5896,
+      "k": 7,
+      "n": 19
+     },
+     "NOT_KNOWABLE_agreed": {
+      "p": 0.8302,
+      "lo": 0.7942,
+      "hi": 0.8611,
+      "k": 401,
+      "n": 483
+     }
+    },
+    "gpt-6-luna": {
+     "KNOWABLE_agreed": {
+      "p": 0.25,
+      "lo": 0.0715,
+      "hi": 0.5907,
+      "k": 2,
+      "n": 8
+     },
+     "split": {
+      "p": 0.4667,
+      "lo": 0.2481,
+      "hi": 0.6988,
+      "k": 7,
+      "n": 15
+     },
+     "NOT_KNOWABLE_agreed": {
+      "p": 0.8771,
+      "lo": 0.8447,
+      "hi": 0.9035,
+      "k": 421,
+      "n": 480
+     }
+    },
+    "qwen38-flash": {
+     "KNOWABLE_agreed": {
+      "p": 0.0,
+      "lo": 0.0,
+      "hi": 0.4899,
+      "k": 0,
+      "n": 4
+     },
+     "split": {
+      "p": 0.4615,
+      "lo": 0.2876,
+      "hi": 0.6454,
+      "k": 12,
+      "n": 26
+     },
+     "NOT_KNOWABLE_agreed": {
+      "p": 0.8465,
+      "lo": 0.8111,
+      "hi": 0.8763,
+      "k": 397,
+      "n": 469
+     }
+    }
+   }
+  }
+ },
+ "g_selfcheck_fa_diff_KAgreed_minus_NKAgreed": {
+  "point_estimate_diff": -0.1589,
+  "ci95": [
+   -0.3806,
+   0.0196
+  ],
+  "n_resamples": 2000,
+  "n_tasks": 354,
+  "seed": 20261124
+ },
+ "h_empty_program_mentions": {
+  "anthropic/claude-opus-5.5": 7,
+  "x-ai/grok-4.7": 10
+ }
+}

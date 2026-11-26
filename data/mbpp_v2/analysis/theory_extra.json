@@ -1,0 +1,356 @@
+{
+ "naive_vs_emp": {
+  "ds-v4-flash|selfcheck": {
+   "diff_bits": -0.012,
+   "ci95": [
+    -0.082,
+    0.059
+   ]
+  },
+  "ds-v4-flash|steelman": {
+   "diff_bits": 0.1,
+   "ci95": [
+    0.015,
+    0.184
+   ]
+  },
+  "glm-5.3-flash|selfcheck": {
+   "diff_bits": 0.014,
+   "ci95": [
+    -0.125,
+    0.163
+   ]
+  },
+  "glm-5.3-flash|steelman": {
+   "diff_bits": 0.112,
+   "ci95": [
+    -0.045,
+    0.268
+   ]
+  },
+  "qwen38-flash|selfcheck": {
+   "diff_bits": 0.069,
+   "ci95": [
+    -0.007,
+    0.147
+   ]
+  },
+  "qwen38-flash|steelman": {
+   "diff_bits": 0.129,
+   "ci95": [
+    0.023,
+    0.237
+   ]
+  },
+  "gpt-5.4|selfcheck": {
+   "diff_bits": 0.183,
+   "ci95": [
+    0.077,
+    0.291
+   ]
+  },
+  "gpt-5.4|steelman": {
+   "diff_bits": 0.19,
+   "ci95": [
+    0.064,
+    0.322
+   ]
+  },
+  "gpt-6-luna|selfcheck": {
+   "diff_bits": 0.029,
+   "ci95": [
+    -0.063,
+    0.122
+   ]
+  },
+  "gpt-6-luna|steelman": {
+   "diff_bits": 0.144,
+   "ci95": [
+    0.01,
+    0.279
+   ]
+  }
+ },
+ "moderator_Z": {
+  "ds-v4-flash": {
+   "sc": {
+    "I_TA_given_G": 3.4,
+    "provenance": {
+     "I_TA_given_GZ": 3.8,
+     "n_strata": 3
+    },
+    "prompt_words": {
+     "I_TA_given_GZ": 3.4,
+     "n_strata": 3
+    },
+    "code_lines": {
+     "I_TA_given_GZ": 6.0,
+     "n_strata": 3
+    },
+    "n_args": {
+     "I_TA_given_GZ": 3.8,
+     "n_strata": 2
+    },
+    "concept": {
+     "I_TA_given_GZ": 5.6,
+     "n_strata": 2
+    },
+    "joint": {
+     "I_TA_given_GZ": 19.3,
+     "n_strata": 72
+    }
+   },
+   "st": {
+    "I_TA_given_G": 12.4,
+    "provenance": {
+     "I_TA_given_GZ": 13.0,
+     "n_strata": 3
+    },
+    "prompt_words": {
+     "I_TA_given_GZ": 16.9,
+     "n_strata": 3
+    },
+    "code_lines": {
+     "I_TA_given_GZ": 13.2,
+     "n_strata": 3
+    },
+    "n_args": {
+     "I_TA_given_GZ": 15.5,
+     "n_strata": 2
+    },
+    "concept": {
+     "I_TA_given_GZ": 14.0,
+     "n_strata": 2
+    },
+    "joint": {
+     "I_TA_given_GZ": 32.1,
+     "n_strata": 72
+    }
+   }
+  },
+  "glm-5.3-flash": {
+   "sc": {
+    "I_TA_given_G": 21.8,
+    "provenance": {
+     "I_TA_given_GZ": 21.8,
+     "n_strata": 3
+    },
+    "prompt_words": {
+     "I_TA_given_GZ": 24.4,
+     "n_strata": 3
+    },
+    "code_lines": {
+     "I_TA_given_GZ": 31.9,
+     "n_strata": 3
+    },
+    "n_args": {
+     "I_TA_given_GZ": 23.0,
+     "n_strata": 2
+    },
+    "concept": {
+     "I_TA_given_GZ": 22.4,
+     "n_strata": 2
+    },
+    "joint": {
+     "I_TA_given_GZ": 51.0,
+     "n_strata": 69
+    }
+   },
+   "st": {
+    "I_TA_given_G": 35.4,
+    "provenance": {
+     "I_TA_given_GZ": 38.3,
+     "n_strata": 3
+    },
+    "prompt_words": {
+     "I_TA_given_GZ": 35.6,
+     "n_strata": 3
+    },
+    "code_lines": {
+     "I_TA_given_GZ": 42.7,
+     "n_strata": 3
+    },
+    "n_args": {
+     "I_TA_given_GZ": 36.4,
+     "n_strata": 2
+    },
+    "concept": {
+     "I_TA_given_GZ": 37.7,
+     "n_strata": 2
+    },
+    "joint": {
+     "I_TA_given_GZ": 63.9,
+     "n_strata": 69
+    }
+   }
+  },
+  "qwen38-flash": {
+   "sc": {
+    "I_TA_given_G": 13.5,
+    "provenance": {
+     "I_TA_given_GZ": 13.5,
+     "n_strata": 3
+    },
+    "prompt_words": {
+     "I_TA_given_GZ": 15.3,
+     "n_strata": 3
+    },
+    "code_lines": {
+     "I_TA_given_GZ": 15.0,
+     "n_strata": 3
+    },
+    "n_args": {
+     "I_TA_given_GZ": 13.9,
+     "n_strata": 2
+    },
+    "concept": {
+     "I_TA_given_GZ": 13.2,
+     "n_strata": 2
+    },
+    "joint": {
+     "I_TA_given_GZ": 27.7,
+     "n_strata": 79
+    }
+   },
+   "st": {
+    "I_TA_given_G": 15.6,
+    "provenance": {
+     "I_TA_given_GZ": 15.7,
+     "n_strata": 3
+    },
+    "prompt_words": {
+     "I_TA_given_GZ": 20.8,
+     "n_strata": 3
+    },
+    "code_lines": {
+     "I_TA_given_GZ": 17.6,
+     "n_strata": 3
+    },
+    "n_args": {
+     "I_TA_given_GZ": 16.5,
+     "n_strata": 2
+    },
+    "concept": {
+     "I_TA_given_GZ": 15.7,
+     "n_strata": 2
+    },
+    "joint": {
+     "I_TA_given_GZ": 49.6,
+     "n_strata": 79
+    }
+   }
+  },
+  "gpt-5.4": {
+   "sc": {
+    "I_TA_given_G": 15.2,
+    "provenance": {
+     "I_TA_given_GZ": 16.2,
+     "n_strata": 3
+    },
+    "prompt_words": {
+     "I_TA_given_GZ": 18.7,
+     "n_strata": 3
+    },
+    "code_lines": {
+     "I_TA_given_GZ": 14.2,
+     "n_strata": 3
+    },
+    "n_args": {
+     "I_TA_given_GZ": 15.1,
+     "n_strata": 2
+    },
+    "concept": {
+     "I_TA_given_GZ": 15.6,
+     "n_strata": 2
+    },
+    "joint": {
+     "I_TA_given_GZ": 35.9,
+     "n_strata": 79
+    }
+   },
+   "st": {
+    "I_TA_given_G": 10.7,
+    "provenance": {
+     "I_TA_given_GZ": 10.1,
+     "n_strata": 3
+    },
+    "prompt_words": {
+     "I_TA_given_GZ": 11.8,
+     "n_strata": 3
+    },
+    "code_lines": {
+     "I_TA_given_GZ": 11.6,
+     "n_strata": 3
+    },
+    "n_args": {
+     "I_TA_given_GZ": 10.5,
+     "n_strata": 2
+    },
+    "concept": {
+     "I_TA_given_GZ": 12.5,
+     "n_strata": 2
+    },
+    "joint": {
+     "I_TA_given_GZ": 46.2,
+     "n_strata": 79
+    }
+   }
+  },
+  "gpt-6-luna": {
+   "sc": {
+    "I_TA_given_G": 3.4,
+    "provenance": {
+     "I_TA_given_GZ": 3.4,
+     "n_strata": 3
+    },
+    "prompt_words": {
+     "I_TA_given_GZ": 4.5,
+     "n_strata": 3
+    },
+    "code_lines": {
+     "I_TA_given_GZ": 1.9,
+     "n_strata": 3
+    },
+    "n_args": {
+     "I_TA_given_GZ": 3.4,
+     "n_strata": 2
+    },
+    "concept": {
+     "I_TA_given_GZ": 3.8,
+     "n_strata": 2
+    },
+    "joint": {
+     "I_TA_given_GZ": 25.0,
+     "n_strata": 76
+    }
+   },
+   "st": {
+    "I_TA_given_G": 8.8,
+    "provenance": {
+     "I_TA_given_GZ": 10.3,
+     "n_strata": 3
+    },
+    "prompt_words": {
+     "I_TA_given_GZ": 10.9,
+     "n_strata": 3
+    },
+    "code_lines": {
+     "I_TA_given_GZ": 6.3,
+     "n_strata": 3
+    },
+    "n_args": {
+     "I_TA_given_GZ": 9.4,
+     "n_strata": 2
+    },
+    "concept": {
+     "I_TA_given_GZ": 9.5,
+     "n_strata": 2
+    },
+    "joint": {
+     "I_TA_given_GZ": 39.6,
+     "n_strata": 76
+    }
+   }
+  }
+ }
+}

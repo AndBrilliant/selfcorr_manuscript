@@ -1,0 +1,12 @@
+{
+ "total_crash_or_guard_block": 736,
+ "by_exception": {
+  "Other exception": 112,
+  "TypeError": 590,
+  "AttributeError": 5,
+  "Blocked AST guard": 12,
+  "NameError": 9,
+  "ValueError": 8
+ },
+ "method": "test_reason string classification of the crash-or-guard-block bucket; see crash_or_guard_block_split in failure_type_breakdown.json for the runtime-crash vs pre-execution-guard-block split"
+}

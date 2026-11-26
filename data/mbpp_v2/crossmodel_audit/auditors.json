@@ -1,0 +1,40 @@
+{
+ "queried_at": "2026-11-24T09:37:04.017184+00:00",
+ "rule": "two auditors per RUN_crossmodel_audit_FIX.md: anthropic/claude-opus-5.5 (exact id from the models list; Mythos-tier models excluded) and x-ai/grok-4.7, both called with reasoning effort 'low'; Gemini dropped.",
+ "auditors": [
+  "anthropic/claude-opus-5.5",
+  "x-ai/grok-4.7"
+ ],
+ "details": {
+  "anthropic/claude-opus-5.5": {
+   "name": "Anthropic: Claude Opus 5.5",
+   "context_length": 1000000,
+   "pricing": {
+    "prompt": "0.000004",
+    "completion": "0.00002",
+    "web_search": "0.01",
+    "input_cache_read": "0.0000002",
+    "input_cache_write": "0.000005",
+    "input_cache_write_1h": "0.000008"
+   }
+  },
+  "x-ai/grok-4.7": {
+   "name": "SpaceXSI: Grok 4.7",
+   "context_length": 500000,
+   "pricing": {
+    "prompt": "0.000002",
+    "completion": "0.000006",
+    "web_search": "0.005",
+    "input_cache_read": "0.0000005",
+    "overrides": [
+     {
+      "min_prompt_tokens": 200000,
+      "prompt": "0.000004",
+      "completion": "0.000012",
+      "input_cache_read": "0.000001"
+     }
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,159 @@
+{
+ "superseded_cells": 35,
+ "cells": {
+  "ds-v4-flash|selfcheck": {
+   "n": 898,
+   "I_A123_millibits": 20.7,
+   "over_cube": -0.01,
+   "over_cube_ci95": [
+    -0.082,
+    0.06
+   ],
+   "over_product": 0.022,
+   "over_product_ci95": [
+    -0.011,
+    0.057
+   ]
+  },
+  "ds-v4-flash|steelman": {
+   "n": 891,
+   "I_A123_millibits": 20.7,
+   "over_cube": 0.098,
+   "over_cube_ci95": [
+    0.016,
+    0.185
+   ],
+   "over_product": 0.053,
+   "over_product_ci95": [
+    0.008,
+    0.103
+   ]
+  },
+  "glm-5.3-flash|selfcheck": {
+   "n": 869,
+   "I_A123_millibits": 59.5,
+   "over_cube": -0.006,
+   "over_cube_ci95": [
+    -0.141,
+    0.133
+   ],
+   "over_product": 0.166,
+   "over_product_ci95": [
+    0.097,
+    0.244
+   ]
+  },
+  "glm-5.3-flash|steelman": {
+   "n": 876,
+   "I_A123_millibits": 72.2,
+   "over_cube": 0.145,
+   "over_cube_ci95": [
+    -0.005,
+    0.307
+   ],
+   "over_product": 0.252,
+   "over_product_ci95": [
+    0.154,
+    0.357
+   ]
+  },
+  "qwen38-flash|selfcheck": {
+   "n": 916,
+   "I_A123_millibits": 26.7,
+   "over_cube": 0.067,
+   "over_cube_ci95": [
+    -0.008,
+    0.146
+   ],
+   "over_product": 0.059,
+   "over_product_ci95": [
+    0.02,
+    0.102
+   ]
+  },
+  "qwen38-flash|steelman": {
+   "n": 913,
+   "I_A123_millibits": 30.3,
+   "over_cube": 0.134,
+   "over_cube_ci95": [
+    0.028,
+    0.243
+   ],
+   "over_product": 0.126,
+   "over_product_ci95": [
+    0.067,
+    0.189
+   ]
+  },
+  "gpt-5.4|selfcheck": {
+   "n": 938,
+   "I_A123_millibits": 24.0,
+   "over_cube": 0.183,
+   "over_cube_ci95": [
+    0.081,
+    0.286
+   ],
+   "over_product": 0.176,
+   "over_product_ci95": [
+    0.093,
+    0.267
+   ]
+  },
+  "gpt-5.4|steelman": {
+   "n": 936,
+   "I_A123_millibits": 17.9,
+   "over_cube": 0.19,
+   "over_cube_ci95": [
+    0.067,
+    0.322
+   ],
+   "over_product": 0.22,
+   "over_product_ci95": [
+    0.123,
+    0.325
+   ]
+  },
+  "gpt-6-luna|selfcheck": {
+   "n": 941,
+   "I_A123_millibits": 17.1,
+   "over_cube": 0.029,
+   "over_cube_ci95": [
+    -0.064,
+    0.119
+   ],
+   "over_product": 0.1,
+   "over_product_ci95": [
+    0.03,
+    0.172
+   ]
+  },
+  "gpt-6-luna|steelman": {
+   "n": 942,
+   "I_A123_millibits": 19.0,
+   "over_cube": 0.144,
+   "over_cube_ci95": [
+    0.012,
+    0.277
+   ],
+   "over_product": 0.145,
+   "over_product_ci95": [
+    0.046,
+    0.25
+   ]
+  }
+ },
+ "summary": {
+  "cube": {
+   "positive": 8,
+   "ci_excludes_zero": 5
+  },
+  "product": {
+   "positive": 10,
+   "ci_excludes_zero": 9
+  }
+ },
+ "I_A123_range_millibits": [
+  17.1,
+  72.2
+ ]
+}

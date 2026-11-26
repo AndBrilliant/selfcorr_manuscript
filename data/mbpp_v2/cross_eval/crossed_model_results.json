@@ -1,0 +1,336 @@
+{
+ "selfcheck": {
+  "fit": {
+   "beta_same_family": 1.0777136748605307,
+   "odds_ratio": 2.937954746654304,
+   "clustered_se": 0.08522083004478523,
+   "z": 12.646129758348645,
+   "p_two_sided": 1.1752298624780345e-36,
+   "ci95": [
+    0.9106839159226333,
+    1.2447434337984282
+   ],
+   "n": 9778,
+   "tasks": 512,
+   "features": [
+    "intercept",
+    "evaluator_glm-5.3-flash",
+    "evaluator_gpt-5.4",
+    "evaluator_gpt-6-luna",
+    "evaluator_qwen38-flash",
+    "generator_glm-5.3-flash",
+    "generator_gpt-5.4",
+    "generator_gpt-6-luna",
+    "generator_qwen38-flash",
+    "same"
+   ]
+  },
+  "matrix": {
+   "GPT-5.4": {
+    "GPT-5.4": {
+     "far": 90.06928406466513,
+     "n": 433
+    },
+    "DeepSeek": {
+     "far": 88.63636363636364,
+     "n": 396
+    },
+    "GLM": {
+     "far": 74.67532467532467,
+     "n": 308
+    },
+    "Qwen": {
+     "far": 81.92771084337349,
+     "n": 415
+    },
+    "GPT-6-Luna": {
+     "far": 88.47926267281106,
+     "n": 434
+    }
+   },
+   "DeepSeek": {
+    "GPT-5.4": {
+     "far": 78.95981087470449,
+     "n": 423
+    },
+    "DeepSeek": {
+     "far": 96.93877551020408,
+     "n": 392
+    },
+    "GLM": {
+     "far": 80.39867109634552,
+     "n": 301
+    },
+    "Qwen": {
+     "far": 87.10462287104623,
+     "n": 411
+    },
+    "GPT-6-Luna": {
+     "far": 86.69833729216153,
+     "n": 421
+    }
+   },
+   "GLM": {
+    "GPT-5.4": {
+     "far": 72.77108433734941,
+     "n": 415
+    },
+    "DeepSeek": {
+     "far": 78.82037533512064,
+     "n": 373
+    },
+    "GLM": {
+     "far": 88.81578947368422,
+     "n": 304
+    },
+    "Qwen": {
+     "far": 77.21518987341773,
+     "n": 395
+    },
+    "GPT-6-Luna": {
+     "far": 72.72727272727273,
+     "n": 396
+    }
+   },
+   "Qwen": {
+    "GPT-5.4": {
+     "far": 84.75750577367207,
+     "n": 433
+    },
+    "DeepSeek": {
+     "far": 94.16243654822335,
+     "n": 394
+    },
+    "GLM": {
+     "far": 82.46753246753246,
+     "n": 308
+    },
+    "Qwen": {
+     "far": 94.93975903614458,
+     "n": 415
+    },
+    "GPT-6-Luna": {
+     "far": 85.61484918793504,
+     "n": 431
+    }
+   },
+   "GPT-6-Luna": {
+    "GPT-5.4": {
+     "far": 82.09302325581396,
+     "n": 430
+    },
+    "DeepSeek": {
+     "far": 88.88888888888889,
+     "n": 396
+    },
+    "GLM": {
+     "far": 73.20261437908496,
+     "n": 306
+    },
+    "Qwen": {
+     "far": 87.5,
+     "n": 416
+    },
+    "GPT-6-Luna": {
+     "far": 93.51851851851852,
+     "n": 432
+    }
+   }
+  },
+  "provider_sensitivity": {
+   "beta_same_family": 0.7214498589864807,
+   "odds_ratio": 2.057414009443268,
+   "clustered_se": 0.11500708806170483,
+   "z": 6.273090390736619,
+   "p_two_sided": 3.5395127901981167e-10,
+   "ci95": [
+    0.4960401066407095,
+    0.9468596113322519
+   ],
+   "n": 9778,
+   "tasks": 512,
+   "features": [
+    "intercept",
+    "evaluator_glm-5.3-flash",
+    "evaluator_gpt-5.4",
+    "evaluator_gpt-6-luna",
+    "evaluator_qwen38-flash",
+    "generator_glm-5.3-flash",
+    "generator_gpt-5.4",
+    "generator_gpt-6-luna",
+    "generator_qwen38-flash",
+    "same",
+    "same_provider"
+   ],
+   "beta_same_provider": 0.41342197270125797,
+   "p_same_provider": 2.411946495387816e-05
+  }
+ },
+ "steelman": {
+  "fit": {
+   "beta_same_family": 0.6537017240105369,
+   "odds_ratio": 1.9226447728014964,
+   "clustered_se": 0.06658848685375275,
+   "z": 9.817038273391791,
+   "p_two_sided": 9.509641558105691e-23,
+   "ci95": [
+    0.5231906869627083,
+    0.7842127610583656
+   ],
+   "n": 9782,
+   "tasks": 512,
+   "features": [
+    "intercept",
+    "evaluator_glm-5.3-flash",
+    "evaluator_gpt-5.4",
+    "evaluator_gpt-6-luna",
+    "evaluator_qwen38-flash",
+    "generator_glm-5.3-flash",
+    "generator_gpt-5.4",
+    "generator_gpt-6-luna",
+    "generator_qwen38-flash",
+    "same"
+   ]
+  },
+  "matrix": {
+   "GPT-5.4": {
+    "GPT-5.4": {
+     "far": 88.52459016393442,
+     "n": 427
+    },
+    "DeepSeek": {
+     "far": 85.27918781725889,
+     "n": 394
+    },
+    "GLM": {
+     "far": 76.8729641693811,
+     "n": 307
+    },
+    "Qwen": {
+     "far": 84.29951690821255,
+     "n": 414
+    },
+    "GPT-6-Luna": {
+     "far": 89.83833718244803,
+     "n": 433
+    }
+   },
+   "DeepSeek": {
+    "GPT-5.4": {
+     "far": 79.38388625592417,
+     "n": 422
+    },
+    "DeepSeek": {
+     "far": 94.38775510204081,
+     "n": 392
+    },
+    "GLM": {
+     "far": 77.15231788079471,
+     "n": 302
+    },
+    "Qwen": {
+     "far": 89.1891891891892,
+     "n": 407
+    },
+    "GPT-6-Luna": {
+     "far": 87.41258741258741,
+     "n": 429
+    }
+   },
+   "GLM": {
+    "GPT-5.4": {
+     "far": 73.30097087378641,
+     "n": 412
+    },
+    "DeepSeek": {
+     "far": 77.35849056603774,
+     "n": 371
+    },
+    "GLM": {
+     "far": 85.47854785478548,
+     "n": 303
+    },
+    "Qwen": {
+     "far": 74.74489795918367,
+     "n": 392
+    },
+    "GPT-6-Luna": {
+     "far": 73.10513447432763,
+     "n": 409
+    }
+   },
+   "Qwen": {
+    "GPT-5.4": {
+     "far": 84.06466512702079,
+     "n": 433
+    },
+    "DeepSeek": {
+     "far": 92.40506329113924,
+     "n": 395
+    },
+    "GLM": {
+     "far": 81.16883116883116,
+     "n": 308
+    },
+    "Qwen": {
+     "far": 90.55690072639226,
+     "n": 413
+    },
+    "GPT-6-Luna": {
+     "far": 87.99076212471132,
+     "n": 433
+    }
+   },
+   "GPT-6-Luna": {
+    "GPT-5.4": {
+     "far": 75.75057736720554,
+     "n": 433
+    },
+    "DeepSeek": {
+     "far": 84.55696202531645,
+     "n": 395
+    },
+    "GLM": {
+     "far": 69.15584415584416,
+     "n": 308
+    },
+    "Qwen": {
+     "far": 81.49038461538461,
+     "n": 416
+    },
+    "GPT-6-Luna": {
+     "far": 86.8663594470046,
+     "n": 434
+    }
+   }
+  },
+  "provider_sensitivity": {
+   "beta_same_family": 0.3975885815125274,
+   "odds_ratio": 1.4882316179358523,
+   "clustered_se": 0.08551544904080617,
+   "z": 4.649318760202107,
+   "p_two_sided": 3.3303317940260776e-06,
+   "ci95": [
+    0.2299813799487128,
+    0.565195783076342
+   ],
+   "n": 9782,
+   "tasks": 512,
+   "features": [
+    "intercept",
+    "evaluator_glm-5.3-flash",
+    "evaluator_gpt-5.4",
+    "evaluator_gpt-6-luna",
+    "evaluator_qwen38-flash",
+    "generator_glm-5.3-flash",
+    "generator_gpt-5.4",
+    "generator_gpt-6-luna",
+    "generator_qwen38-flash",
+    "same",
+    "same_provider"
+   ],
+   "beta_same_provider": 0.29399400620123045,
+   "p_same_provider": 0.00019108241667279392
+  }
+ }
+}

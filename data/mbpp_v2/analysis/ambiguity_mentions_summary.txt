@@ -1,0 +1,15 @@
+Ambiguity flags in evaluator responses (MBPP production)
+
+ds-v4-flash    selfcheck incorrect_accepted 16.1% (n=380)  incorrect_rejected 0.0% (n=12)  correct 9.2% (n=535)
+ds-v4-flash    steelman  incorrect_accepted 91.9% (n=370)  incorrect_rejected 72.7% (n=22)  correct 79.8% (n=534)
+glm-5.3-flash  selfcheck incorrect_accepted 21.1% (n=270)  incorrect_rejected 20.6% (n=34)  correct 15.2% (n=623)
+glm-5.3-flash  steelman  incorrect_accepted 83.0% (n=259)  incorrect_rejected 70.5% (n=44)  correct 76.0% (n=629)
+gpt-5.4        selfcheck incorrect_accepted 35.4% (n=390)  incorrect_rejected 34.9% (n=43)  correct 20.4% (n=514)
+gpt-5.4        steelman  incorrect_accepted 93.4% (n=378)  incorrect_rejected 83.7% (n=49)  correct 83.8% (n=511)
+gpt-6-luna     selfcheck incorrect_accepted 4.5% (n=404)  incorrect_rejected 3.6% (n=28)  correct 2.0% (n=511)
+gpt-6-luna     steelman  incorrect_accepted 83.0% (n=377)  incorrect_rejected 50.9% (n=57)  correct 71.2% (n=513)
+qwen38-flash   selfcheck incorrect_accepted 10.7% (n=394)  incorrect_rejected 23.8% (n=21)  correct 7.8% (n=528)
+qwen38-flash   steelman  incorrect_accepted 92.5% (n=374)  incorrect_rejected 79.5% (n=39)  correct 86.5% (n=527)
+
+POOLED selfcheck: correct 11.1% (300/2711)  incorrect_accepted 17.2% (316/1838)  incorrect_rejected 20.3% (28/138)
+POOLED steelman: correct 79.3% (2153/2714)  incorrect_accepted 89.1% (1567/1758)  incorrect_rejected 70.1% (148/211)

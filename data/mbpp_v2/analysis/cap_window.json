@@ -1,0 +1,13 @@
+{
+ "capped_attempts": 386,
+ "capped_attempts_by_model_and_cap": {
+  "ds-v4-flash @ 8192": 83,
+  "glm-5.3-flash @ 16384": 110,
+  "qwen38-flash @ 8192": 193
+ },
+ "last_capped_attempt_ts": "2026-11-05T06:26:25.564903+00:00",
+ "pairs_total": 4735,
+ "pairs_completed_under_cap": 1686,
+ "pairs_straddling_restart": 1,
+ "referenced_events_truncated_at_cap": 0
+}

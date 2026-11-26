@@ -1,0 +1,1 @@
+INVALID RUN 2026-11-24: runner bug — sample rows lack the code field, so all 1950 prompts shipped with an EMPTY [CANDIDATE PROGRAM] section (563/548/458 auditor responses say the program is empty/missing). Results are void. Kept intact for the record. Valid rerun lives in crossmodel_audit/.

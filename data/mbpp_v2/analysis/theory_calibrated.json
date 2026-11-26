@@ -1,0 +1,586 @@
+{
+ "moderators": {
+  "ds-v4-flash|sc": {
+   "I": 3.4,
+   "I_null_mean": 0.8,
+   "I_corrected": 2.6,
+   "p": 0.0475,
+   "mods": {
+    "provenance": {
+     "CMI": 3.8,
+     "null_mean": 1.67,
+     "corrected": 2.2,
+     "p": 0.1059,
+     "strata": 3
+    },
+    "prompt_words": {
+     "CMI": 3.4,
+     "null_mean": 2.79,
+     "corrected": 0.6,
+     "p": 0.3358,
+     "strata": 3
+    },
+    "code_lines": {
+     "CMI": 6.0,
+     "null_mean": 2.73,
+     "corrected": 3.3,
+     "p": 0.0975,
+     "strata": 3
+    },
+    "n_args": {
+     "CMI": 3.8,
+     "null_mean": 1.79,
+     "corrected": 2.0,
+     "p": 0.1219,
+     "strata": 2
+    },
+    "concept": {
+     "CMI": 5.6,
+     "null_mean": 1.82,
+     "corrected": 3.7,
+     "p": 0.027,
+     "strata": 2
+    }
+   }
+  },
+  "ds-v4-flash|st": {
+   "I": 12.4,
+   "I_null_mean": 0.79,
+   "I_corrected": 11.6,
+   "p": 0.0015,
+   "mods": {
+    "provenance": {
+     "CMI": 13.0,
+     "null_mean": 1.65,
+     "corrected": 11.3,
+     "p": 0.0005,
+     "strata": 3
+    },
+    "prompt_words": {
+     "CMI": 16.9,
+     "null_mean": 2.59,
+     "corrected": 14.4,
+     "p": 0.0005,
+     "strata": 3
+    },
+    "code_lines": {
+     "CMI": 13.2,
+     "null_mean": 2.51,
+     "corrected": 10.7,
+     "p": 0.0025,
+     "strata": 3
+    },
+    "n_args": {
+     "CMI": 15.5,
+     "null_mean": 1.6,
+     "corrected": 13.9,
+     "p": 0.0015,
+     "strata": 2
+    },
+    "concept": {
+     "CMI": 14.0,
+     "null_mean": 1.82,
+     "corrected": 12.2,
+     "p": 0.001,
+     "strata": 2
+    }
+   }
+  },
+  "glm-5.3-flash|sc": {
+   "I": 21.8,
+   "I_null_mean": 0.8,
+   "I_corrected": 21.0,
+   "p": 0.0005,
+   "mods": {
+    "provenance": {
+     "CMI": 21.8,
+     "null_mean": 1.6,
+     "corrected": 20.2,
+     "p": 0.0005,
+     "strata": 3
+    },
+    "prompt_words": {
+     "CMI": 24.4,
+     "null_mean": 2.5,
+     "corrected": 21.9,
+     "p": 0.0005,
+     "strata": 3
+    },
+    "code_lines": {
+     "CMI": 31.9,
+     "null_mean": 2.35,
+     "corrected": 29.5,
+     "p": 0.0005,
+     "strata": 3
+    },
+    "n_args": {
+     "CMI": 23.0,
+     "null_mean": 1.62,
+     "corrected": 21.4,
+     "p": 0.0005,
+     "strata": 2
+    },
+    "concept": {
+     "CMI": 22.4,
+     "null_mean": 1.67,
+     "corrected": 20.7,
+     "p": 0.0005,
+     "strata": 2
+    }
+   }
+  },
+  "glm-5.3-flash|st": {
+   "I": 35.4,
+   "I_null_mean": 0.78,
+   "I_corrected": 34.6,
+   "p": 0.0005,
+   "mods": {
+    "provenance": {
+     "CMI": 38.3,
+     "null_mean": 1.55,
+     "corrected": 36.7,
+     "p": 0.0005,
+     "strata": 3
+    },
+    "prompt_words": {
+     "CMI": 35.6,
+     "null_mean": 2.43,
+     "corrected": 33.2,
+     "p": 0.0005,
+     "strata": 3
+    },
+    "code_lines": {
+     "CMI": 42.7,
+     "null_mean": 2.59,
+     "corrected": 40.1,
+     "p": 0.0005,
+     "strata": 3
+    },
+    "n_args": {
+     "CMI": 36.4,
+     "null_mean": 1.62,
+     "corrected": 34.7,
+     "p": 0.0005,
+     "strata": 2
+    },
+    "concept": {
+     "CMI": 37.7,
+     "null_mean": 1.64,
+     "corrected": 36.1,
+     "p": 0.0005,
+     "strata": 2
+    }
+   }
+  },
+  "qwen38-flash|sc": {
+   "I": 13.5,
+   "I_null_mean": 0.79,
+   "I_corrected": 12.7,
+   "p": 0.0005,
+   "mods": {
+    "provenance": {
+     "CMI": 13.5,
+     "null_mean": 1.59,
+     "corrected": 11.9,
+     "p": 0.0005,
+     "strata": 3
+    },
+    "prompt_words": {
+     "CMI": 15.3,
+     "null_mean": 2.59,
+     "corrected": 12.7,
+     "p": 0.0005,
+     "strata": 3
+    },
+    "code_lines": {
+     "CMI": 15.0,
+     "null_mean": 2.57,
+     "corrected": 12.4,
+     "p": 0.002,
+     "strata": 3
+    },
+    "n_args": {
+     "CMI": 13.9,
+     "null_mean": 1.57,
+     "corrected": 12.3,
+     "p": 0.001,
+     "strata": 2
+    },
+    "concept": {
+     "CMI": 13.2,
+     "null_mean": 1.6,
+     "corrected": 11.6,
+     "p": 0.001,
+     "strata": 2
+    }
+   }
+  },
+  "qwen38-flash|st": {
+   "I": 15.6,
+   "I_null_mean": 0.76,
+   "I_corrected": 14.8,
+   "p": 0.0005,
+   "mods": {
+    "provenance": {
+     "CMI": 15.7,
+     "null_mean": 1.54,
+     "corrected": 14.2,
+     "p": 0.0005,
+     "strata": 3
+    },
+    "prompt_words": {
+     "CMI": 20.8,
+     "null_mean": 2.42,
+     "corrected": 18.4,
+     "p": 0.0005,
+     "strata": 3
+    },
+    "code_lines": {
+     "CMI": 17.6,
+     "null_mean": 2.31,
+     "corrected": 15.3,
+     "p": 0.0005,
+     "strata": 3
+    },
+    "n_args": {
+     "CMI": 16.5,
+     "null_mean": 1.53,
+     "corrected": 15.0,
+     "p": 0.0005,
+     "strata": 2
+    },
+    "concept": {
+     "CMI": 15.7,
+     "null_mean": 1.55,
+     "corrected": 14.2,
+     "p": 0.0005,
+     "strata": 2
+    }
+   }
+  },
+  "gpt-5.4|sc": {
+   "I": 15.2,
+   "I_null_mean": 0.76,
+   "I_corrected": 14.5,
+   "p": 0.0005,
+   "mods": {
+    "provenance": {
+     "CMI": 16.2,
+     "null_mean": 1.57,
+     "corrected": 14.6,
+     "p": 0.0005,
+     "strata": 3
+    },
+    "prompt_words": {
+     "CMI": 18.7,
+     "null_mean": 2.42,
+     "corrected": 16.2,
+     "p": 0.0005,
+     "strata": 3
+    },
+    "code_lines": {
+     "CMI": 14.2,
+     "null_mean": 2.44,
+     "corrected": 11.7,
+     "p": 0.0025,
+     "strata": 3
+    },
+    "n_args": {
+     "CMI": 15.1,
+     "null_mean": 1.55,
+     "corrected": 13.5,
+     "p": 0.0005,
+     "strata": 2
+    },
+    "concept": {
+     "CMI": 15.6,
+     "null_mean": 1.62,
+     "corrected": 14.0,
+     "p": 0.0005,
+     "strata": 2
+    }
+   }
+  },
+  "gpt-5.4|st": {
+   "I": 10.7,
+   "I_null_mean": 0.81,
+   "I_corrected": 9.9,
+   "p": 0.001,
+   "mods": {
+    "provenance": {
+     "CMI": 10.1,
+     "null_mean": 1.64,
+     "corrected": 8.5,
+     "p": 0.004,
+     "strata": 3
+    },
+    "prompt_words": {
+     "CMI": 11.8,
+     "null_mean": 2.34,
+     "corrected": 9.5,
+     "p": 0.002,
+     "strata": 3
+    },
+    "code_lines": {
+     "CMI": 11.6,
+     "null_mean": 2.3,
+     "corrected": 9.3,
+     "p": 0.002,
+     "strata": 3
+    },
+    "n_args": {
+     "CMI": 10.5,
+     "null_mean": 1.59,
+     "corrected": 8.9,
+     "p": 0.0025,
+     "strata": 2
+    },
+    "concept": {
+     "CMI": 12.5,
+     "null_mean": 1.56,
+     "corrected": 11.0,
+     "p": 0.002,
+     "strata": 2
+    }
+   }
+  },
+  "gpt-6-luna|sc": {
+   "I": 3.4,
+   "I_null_mean": 0.79,
+   "I_corrected": 2.6,
+   "p": 0.051,
+   "mods": {
+    "provenance": {
+     "CMI": 3.4,
+     "null_mean": 1.54,
+     "corrected": 1.9,
+     "p": 0.1109,
+     "strata": 3
+    },
+    "prompt_words": {
+     "CMI": 4.5,
+     "null_mean": 2.45,
+     "corrected": 2.1,
+     "p": 0.1404,
+     "strata": 3
+    },
+    "code_lines": {
+     "CMI": 1.9,
+     "null_mean": 2.38,
+     "corrected": -0.4,
+     "p": 0.4828,
+     "strata": 3
+    },
+    "n_args": {
+     "CMI": 3.4,
+     "null_mean": 1.56,
+     "corrected": 1.8,
+     "p": 0.1199,
+     "strata": 2
+    },
+    "concept": {
+     "CMI": 3.8,
+     "null_mean": 1.69,
+     "corrected": 2.1,
+     "p": 0.089,
+     "strata": 2
+    }
+   }
+  },
+  "gpt-6-luna|st": {
+   "I": 8.8,
+   "I_null_mean": 0.77,
+   "I_corrected": 8.0,
+   "p": 0.0015,
+   "mods": {
+    "provenance": {
+     "CMI": 10.3,
+     "null_mean": 2.2,
+     "corrected": 8.1,
+     "p": 0.005,
+     "strata": 3
+    },
+    "prompt_words": {
+     "CMI": 10.9,
+     "null_mean": 2.27,
+     "corrected": 8.6,
+     "p": 0.003,
+     "strata": 3
+    },
+    "code_lines": {
+     "CMI": 6.3,
+     "null_mean": 2.37,
+     "corrected": 4.0,
+     "p": 0.055,
+     "strata": 3
+    },
+    "n_args": {
+     "CMI": 9.4,
+     "null_mean": 1.49,
+     "corrected": 7.9,
+     "p": 0.0035,
+     "strata": 2
+    },
+    "concept": {
+     "CMI": 9.5,
+     "null_mean": 1.58,
+     "corrected": 8.0,
+     "p": 0.001,
+     "strata": 2
+    }
+   }
+  }
+ },
+ "naive": {
+  "ds-v4-flash|selfcheck": {
+   "E1": 0.029,
+   "E_rounds": [
+    0.029,
+    0.056,
+    0.033
+   ],
+   "naive_cube": 0.088,
+   "naive_product": 0.119,
+   "empirical": 0.1,
+   "over_cube": -0.012,
+   "over_product": 0.019,
+   "determinism_null": 0.059,
+   "frac_of_determinism": -0.2
+  },
+  "ds-v4-flash|steelman": {
+   "E1": 0.065,
+   "E_rounds": [
+    0.065,
+    0.036,
+    0.044
+   ],
+   "naive_cube": 0.195,
+   "naive_product": 0.145,
+   "empirical": 0.095,
+   "over_cube": 0.1,
+   "over_product": 0.05,
+   "determinism_null": 0.13,
+   "frac_of_determinism": 0.77
+  },
+  "glm-5.3-flash|selfcheck": {
+   "E1": 0.11,
+   "E_rounds": [
+    0.11,
+    0.164,
+    0.218
+   ],
+   "naive_cube": 0.329,
+   "naive_product": 0.491,
+   "empirical": 0.316,
+   "over_cube": 0.014,
+   "over_product": 0.175,
+   "determinism_null": 0.22,
+   "frac_of_determinism": 0.06
+  },
+  "glm-5.3-flash|steelman": {
+   "E1": 0.164,
+   "E_rounds": [
+    0.164,
+    0.263,
+    0.211
+   ],
+   "naive_cube": 0.493,
+   "naive_product": 0.638,
+   "empirical": 0.381,
+   "over_cube": 0.112,
+   "over_product": 0.257,
+   "determinism_null": 0.329,
+   "frac_of_determinism": 0.34
+  },
+  "qwen38-flash|selfcheck": {
+   "E1": 0.065,
+   "E_rounds": [
+    0.065,
+    0.055,
+    0.066
+   ],
+   "naive_cube": 0.194,
+   "naive_product": 0.186,
+   "empirical": 0.125,
+   "over_cube": 0.069,
+   "over_product": 0.061,
+   "determinism_null": 0.129,
+   "frac_of_determinism": 0.53
+  },
+  "qwen38-flash|steelman": {
+   "E1": 0.101,
+   "E_rounds": [
+    0.101,
+    0.096,
+    0.097
+   ],
+   "naive_cube": 0.302,
+   "naive_product": 0.293,
+   "empirical": 0.173,
+   "over_cube": 0.129,
+   "over_product": 0.12,
+   "determinism_null": 0.202,
+   "frac_of_determinism": 0.64
+  },
+  "gpt-5.4|selfcheck": {
+   "E1": 0.106,
+   "E_rounds": [
+    0.106,
+    0.106,
+    0.101
+   ],
+   "naive_cube": 0.319,
+   "naive_product": 0.313,
+   "empirical": 0.137,
+   "over_cube": 0.183,
+   "over_product": 0.176,
+   "determinism_null": 0.213,
+   "frac_of_determinism": 0.86
+  },
+  "gpt-5.4|steelman": {
+   "E1": 0.103,
+   "E_rounds": [
+    0.103,
+    0.103,
+    0.134
+   ],
+   "naive_cube": 0.31,
+   "naive_product": 0.34,
+   "empirical": 0.12,
+   "over_cube": 0.19,
+   "over_product": 0.22,
+   "determinism_null": 0.206,
+   "frac_of_determinism": 0.92
+  },
+  "gpt-6-luna|selfcheck": {
+   "E1": 0.045,
+   "E_rounds": [
+    0.045,
+    0.083,
+    0.077
+   ],
+   "naive_cube": 0.134,
+   "naive_product": 0.205,
+   "empirical": 0.105,
+   "over_cube": 0.029,
+   "over_product": 0.1,
+   "determinism_null": 0.089,
+   "frac_of_determinism": 0.33
+  },
+  "gpt-6-luna|steelman": {
+   "E1": 0.105,
+   "E_rounds": [
+    0.105,
+    0.092,
+    0.118
+   ],
+   "naive_cube": 0.314,
+   "naive_product": 0.314,
+   "empirical": 0.169,
+   "over_cube": 0.144,
+   "over_product": 0.145,
+   "determinism_null": 0.209,
+   "frac_of_determinism": 0.69
+  }
+ }
+}

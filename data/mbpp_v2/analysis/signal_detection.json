@@ -1,0 +1,102 @@
+{
+ "ds-v4-flash": {
+  "d_prime": {
+   "selfcheck": 0.41,
+   "steelman": 0.694
+  },
+  "criterion_c": {
+   "selfcheck": -2.073,
+   "steelman": -1.931
+  },
+  "delta_d_prime": 0.284,
+  "delta_d_prime_ci95": [
+   -0.244,
+   0.846
+  ],
+  "delta_c": 0.142,
+  "delta_c_ci95": [
+   -0.128,
+   0.42
+  ]
+ },
+ "glm-5.3-flash": {
+  "d_prime": {
+   "selfcheck": 0.748,
+   "steelman": 0.909
+  },
+  "criterion_c": {
+   "selfcheck": -1.599,
+   "steelman": -1.518
+  },
+  "delta_d_prime": 0.161,
+  "delta_d_prime_ci95": [
+   -0.178,
+   0.513
+  ],
+  "delta_c": 0.081,
+  "delta_c_ci95": [
+   -0.088,
+   0.253
+  ]
+ },
+ "qwen38-flash": {
+  "d_prime": {
+   "selfcheck": 0.791,
+   "steelman": 0.62
+  },
+  "criterion_c": {
+   "selfcheck": -2.032,
+   "steelman": -1.624
+  },
+  "delta_d_prime": -0.171,
+  "delta_d_prime_ci95": [
+   -0.684,
+   0.205
+  ],
+  "delta_c": 0.408,
+  "delta_c_ci95": [
+   0.235,
+   0.679
+  ]
+ },
+ "gpt-5.4": {
+  "d_prime": {
+   "selfcheck": 0.599,
+   "steelman": 0.454
+  },
+  "criterion_c": {
+   "selfcheck": -1.591,
+   "steelman": -1.429
+  },
+  "delta_d_prime": -0.146,
+  "delta_d_prime_ci95": [
+   -0.482,
+   0.17
+  ],
+  "delta_c": 0.162,
+  "delta_c_ci95": [
+   0.008,
+   0.333
+  ]
+ },
+ "gpt-6-luna": {
+  "d_prime": {
+   "selfcheck": 0.293,
+   "steelman": 0.385
+  },
+  "criterion_c": {
+   "selfcheck": -1.662,
+   "steelman": -1.31
+  },
+  "delta_d_prime": 0.091,
+  "delta_d_prime_ci95": [
+   -0.157,
+   0.333
+  ],
+  "delta_c": 0.353,
+  "delta_c_ci95": [
+   0.239,
+   0.484
+  ]
+ }
+}

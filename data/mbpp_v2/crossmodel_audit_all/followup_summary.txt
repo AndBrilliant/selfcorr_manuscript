@@ -1,0 +1,23 @@
+Cross-model audit follow-up; auditors: anthropic/claude-opus-5.5, x-ai/grok-4.7
+classes: {'AGREED_NOT_KNOWABLE': 1877, 'SPLIT': 54, 'AGREED_KNOWABLE': 49, 'NO_CLASS': 6}
+
+[AGREED_KNOWABLE] n=49
+  selfcheck: own FA {'n': 49, 'fa_pct': 65.3, 'ci95': [51.3, 77.1]}; cross FA {'n': 195, 'fa_pct': 28.2, 'ci95': [22.4, 34.9]}
+    shared split: {'own_right': {'n': 119, 'fa_pct': 27.7, 'ci95': [20.5, 36.4]}, 'own_wrong_different_output': {'n': 48, 'fa_pct': 27.1, 'ci95': [16.6, 41.0]}, 'own_wrong_same_output': {'n': 26, 'fa_pct': 34.6, 'ci95': [19.4, 53.8]}}
+  steelman: own FA {'n': 48, 'fa_pct': 39.6, 'ci95': [27.0, 53.7]}; cross FA {'n': 193, 'fa_pct': 23.8, 'ci95': [18.4, 30.3]}
+    shared split: {'own_right': {'n': 120, 'fa_pct': 21.7, 'ci95': [15.2, 29.9]}, 'own_wrong_different_output': {'n': 48, 'fa_pct': 22.9, 'ci95': [13.3, 36.5]}, 'own_wrong_same_output': {'n': 25, 'fa_pct': 36.0, 'ci95': [20.2, 55.5]}}
+[AGREED_NOT_KNOWABLE] n=1877
+  selfcheck: own FA {'n': 1867, 'fa_pct': 94.6, 'ci95': [93.5, 95.5]}; cross FA {'n': 7371, 'fa_pct': 85.1, 'ci95': [84.3, 85.9]}
+    shared split: {'own_wrong_different_output': {'n': 1517, 'fa_pct': 73.2, 'ci95': [70.9, 75.3]}, 'own_wrong_same_output': {'n': 4913, 'fa_pct': 91.6, 'ci95': [90.8, 92.3]}, 'own_right': {'n': 911, 'fa_pct': 70.8, 'ci95': [67.8, 73.7]}}
+  steelman: own FA {'n': 1864, 'fa_pct': 91.3, 'ci95': [89.9, 92.5]}; cross FA {'n': 7383, 'fa_pct': 84.1, 'ci95': [83.2, 84.9]}
+    shared split: {'own_wrong_different_output': {'n': 1516, 'fa_pct': 72.2, 'ci95': [69.9, 74.4]}, 'own_wrong_same_output': {'n': 4906, 'fa_pct': 89.8, 'ci95': [88.9, 90.6]}, 'own_right': {'n': 927, 'fa_pct': 73.8, 'ci95': [70.9, 76.5]}}
+[SPLIT] n=54
+  selfcheck: own FA {'n': 53, 'fa_pct': 64.2, 'ci95': [50.7, 75.7]}; cross FA {'n': 209, 'fa_pct': 46.4, 'ci95': [39.8, 53.2]}
+    shared split: {'own_wrong_different_output': {'n': 73, 'fa_pct': 42.5, 'ci95': [31.8, 53.9]}, 'own_right': {'n': 86, 'fa_pct': 39.5, 'ci95': [29.9, 50.1]}, 'own_wrong_same_output': {'n': 48, 'fa_pct': 66.7, 'ci95': [52.5, 78.3]}}
+  steelman: own FA {'n': 50, 'fa_pct': 64.0, 'ci95': [50.1, 75.9]}; cross FA {'n': 209, 'fa_pct': 45.9, 'ci95': [39.3, 52.7]}
+    shared split: {'own_wrong_different_output': {'n': 75, 'fa_pct': 42.7, 'ci95': [32.1, 53.9]}, 'own_right': {'n': 85, 'fa_pct': 40.0, 'ci95': [30.2, 50.6]}, 'own_wrong_same_output': {'n': 48, 'fa_pct': 62.5, 'ci95': [48.4, 74.8]}}
+[NO_CLASS] n=6
+  selfcheck: own FA {'n': 6, 'fa_pct': 83.3, 'ci95': [43.6, 97.0]}; cross FA {'n': 23, 'fa_pct': 78.3, 'ci95': [58.1, 90.3]}
+    shared split: {'own_wrong_different_output': {'n': 13, 'fa_pct': 76.9, 'ci95': [49.7, 91.8]}, 'own_wrong_same_output': {'n': 10, 'fa_pct': 80.0, 'ci95': [49.0, 94.3]}}
+  steelman: own FA {'n': 6, 'fa_pct': 66.7, 'ci95': [30.0, 90.3]}; cross FA {'n': 24, 'fa_pct': 75.0, 'ci95': [55.1, 88.0]}
+    shared split: {'own_wrong_different_output': {'n': 13, 'fa_pct': 61.5, 'ci95': [35.5, 82.3]}, 'own_wrong_same_output': {'n': 11, 'fa_pct': 90.9, 'ci95': [62.3, 98.4]}}

@@ -1,0 +1,37 @@
+{
+ "gpt-5.4": {
+  "delta_change": -0.32,
+  "ci95": [
+   -4.3,
+   3.6
+  ]
+ },
+ "ds-v4-flash": {
+  "delta_change": 2.57,
+  "ci95": [
+   -0.4,
+   5.5
+  ]
+ },
+ "glm-5.3-flash": {
+  "delta_change": 3.34,
+  "ci95": [
+   -1.1,
+   7.7
+  ]
+ },
+ "qwen38-flash": {
+  "delta_change": 2.46,
+  "ci95": [
+   -0.6,
+   5.5
+  ]
+ },
+ "gpt-6-luna": {
+  "delta_change": 3.58,
+  "ci95": [
+   0.4,
+   6.8
+  ]
+ }
+}

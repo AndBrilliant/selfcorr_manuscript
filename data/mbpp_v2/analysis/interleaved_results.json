@@ -1,0 +1,134 @@
+{
+ "prompt: Qwen judging own": {
+  "n": 416,
+  "kx": 95.9,
+  "ky": 94.0,
+  "d": 1.9,
+  "ci95": [
+   0.5,
+   3.6
+  ],
+  "ci90": [
+   0.7,
+   3.4
+  ],
+  "b": 10,
+  "c": 2,
+  "p": 0.03857421875
+ },
+ "prompt: GPT-6-Luna judging Qwen": {
+  "n": 416,
+  "kx": 78.6,
+  "ky": 80.5,
+  "d": -1.9,
+  "ci95": [
+   -4.3,
+   0.5
+  ],
+  "ci90": [
+   -3.8,
+   0.0
+  ],
+  "b": 8,
+  "c": 16,
+  "p": 0.15158963203430176
+ },
+ "A/A: Qwen steelman replicate": {
+  "n": 416,
+  "kx": 93.8,
+  "ky": 94.0,
+  "d": -0.2,
+  "ci95": [
+   -2.4,
+   1.9
+  ],
+  "ci90": [
+   -1.9,
+   1.4
+  ],
+  "b": 9,
+  "c": 10,
+  "p": 1
+ },
+ "prompt: GPT-6-Luna judging own": {
+  "n": 434,
+  "kx": 87.6,
+  "ky": 88.0,
+  "d": -0.5,
+  "ci95": [
+   -2.5,
+   1.6
+  ],
+  "ci90": [
+   -2.3,
+   1.4
+  ],
+  "b": 10,
+  "c": 12,
+  "p": 0.8318119049072266
+ },
+ "prompt: Qwen judging GPT-6-Luna": {
+  "n": 434,
+  "kx": 92.2,
+  "ky": 89.9,
+  "d": 2.3,
+  "ci95": [
+   0.7,
+   4.1
+  ],
+  "ci90": [
+   0.9,
+   3.9
+  ],
+  "b": 13,
+  "c": 3,
+  "p": 0.021270751953125
+ },
+ "A/A: GPT-6-Luna steelman replicate": {
+  "n": 434,
+  "kx": 89.4,
+  "ky": 88.0,
+  "d": 1.4,
+  "ci95": [
+   -0.5,
+   3.2
+  ],
+  "ci90": [
+   -0.2,
+   3.0
+  ],
+  "b": 12,
+  "c": 6,
+  "p": 0.237884521484375
+ },
+ "same_family": {
+  "bracket_qwen": 13.5,
+  "bracket_luna": -1.8,
+  "I_same": 5.8,
+  "ci95": [
+   3.5,
+   8.2
+  ],
+  "evaluator_leniency_qwen_minus_luna": 7.7,
+  "qwen_bc": [
+   60,
+   4
+  ],
+  "luna_bc": [
+   19,
+   27
+  ]
+ },
+ "drift_second_minus_first_half_pp": {
+  "qwen|control_partner": -4.3,
+  "qwen|steel_partner": -3.7,
+  "qwen|control_self": -2.4,
+  "qwen|steel_self_b": -2.6,
+  "qwen|steel_self_a": -2.6,
+  "luna|steel_self_b": 2.5,
+  "luna|steel_self_a": 2.5,
+  "luna|control_self": 1.5,
+  "luna|steel_partner": 2.3,
+  "luna|control_partner": 0.9
+ }
+}

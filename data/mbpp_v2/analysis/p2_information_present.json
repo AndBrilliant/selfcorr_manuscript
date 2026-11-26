@@ -1,0 +1,67 @@
+{
+ "A_information_control_fails_shown": {
+  "n_err": 1798,
+  "n_cor": 2701,
+  "FA": [
+   0.0156,
+   0.0234
+  ],
+  "TA": [
+   0.9856,
+   0.9793
+  ],
+  "d_selfcheck": 4.34,
+  "d_steelman": 4.028,
+  "dd": -0.313,
+  "dd_ci95": [
+   -0.505,
+   -0.139
+  ],
+  "dc": -0.01,
+  "dc_ci95": [
+   -0.103,
+   0.073
+  ]
+ },
+ "A_arm_switches_in_time_order": {
+  "events": 10493,
+  "switches": 9769
+ },
+ "B_generator_sees_assert_fails_shown": {
+  "n_err": 122,
+  "n_cor": 4160,
+  "FA": [
+   0.3361,
+   0.4754
+  ],
+  "TA": [
+   0.9834,
+   0.9788
+  ],
+  "d_selfcheck": 2.553,
+  "d_steelman": 2.092,
+  "dd": -0.461,
+  "dd_ci95": [
+   -0.731,
+   -0.224
+  ],
+  "dc": -0.131,
+  "dc_ci95": [
+   -0.274,
+   0.003
+  ]
+ },
+ "C_interleaved_knowable": {
+  "n_err": 41,
+  "dd": 0.002,
+  "dd_ci95": [
+   -0.305,
+   0.342
+  ],
+  "dc": 0.245,
+  "dc_ci95": [
+   0.093,
+   0.417
+  ]
+ }
+}

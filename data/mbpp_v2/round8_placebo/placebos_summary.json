@@ -1,0 +1,15 @@
+{
+ "candidates": 4718,
+ "usable_by_family": {
+  "ds-v4-flash": 787,
+  "glm-5.3-flash": 848,
+  "gpt-5.4": 771,
+  "gpt-6-luna": 777,
+  "qwen38-flash": 799
+ },
+ "excluded": {
+  "candidate_raises": 710,
+  "non_literal_output": 18,
+  "crash": 8
+ }
+}

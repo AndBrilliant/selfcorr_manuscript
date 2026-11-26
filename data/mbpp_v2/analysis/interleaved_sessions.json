@@ -1,0 +1,21 @@
+{
+ "events": 28358,
+ "span_hours": 25.58,
+ "gap_hours": [
+  5.2,
+  4.65
+ ],
+ "session_sizes": [
+  208,
+  23353,
+  4797
+ ],
+ "blocks": 946,
+ "blocks_split_across_sessions": 67,
+ "holm_adjusted_p_four_prompt_contrasts": {
+  "prompt: Qwen judging GPT-6-Luna": 0.0851,
+  "prompt: Qwen judging own": 0.1157,
+  "prompt: GPT-6-Luna judging Qwen": 0.3032,
+  "prompt: GPT-6-Luna judging own": 0.8318
+ }
+}
