@@ -87,5 +87,20 @@
    109
   ]
  },
- "unparsed_cross": 11
+ "unparsed_cross": 11,
+ "paired_task_clustered": {
+  "n_candidates": 124,
+  "n_tasks": 91,
+  "author_pct": 33.1,
+  "others_mean_pct": 17.1,
+  "diff_pts": 16.0,
+  "diff_ci95_task_bootstrap": [
+   9.5,
+   23.0
+  ],
+  "one_sided_boot_p": 0.0,
+  "author_accepts_most_others_reject": 23,
+  "reverse": 2,
+  "sign_test_one_sided_p": 9.715557098388672e-06
+ }
 }

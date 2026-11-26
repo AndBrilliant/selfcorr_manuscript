@@ -40,5 +40,32 @@ res = {"candidates": len(items), "author": [ak, an, round(ak / an, 4)], "others"
        "by_author": {a: {"author": v[:2], "others": v[2:]} for a, v in by.items()},
        "by_evaluator": {e: v for e, v in by_eval.items()},
        "unparsed_cross": sum(1 for r in cross.values() if not ok(r["verdict"]))}
+# Paired, task-clustered: author verdict vs mean of the other families' verdicts on the same candidate.
+import random
+from math import comb
+rows = []
+for a, t in items:
+    o = own.get((a, t))
+    oth = [r["verdict"] == "ACCEPT" for (e, a2, t2), r in cross.items() if a2 == a and t2 == t and ok(r["verdict"])]
+    if o and ok(o["verdict"]) and oth:
+        rows.append((t, o["verdict"] == "ACCEPT", sum(oth) / len(oth)))
+bt = defaultdict(list)
+for r in rows: bt[r[0]].append(r)
+tk = sorted(bt); rng = random.Random(20261124); diffs = []
+for _ in range(2000):
+    smp = [x for t in (rng.choice(tk) for _ in tk) for x in bt[t]]
+    diffs.append(100 * (sum(x[1] for x in smp) - sum(x[2] for x in smp)) / len(smp))
+diffs.sort()
+b_ = sum(1 for r in rows if r[1] and r[2] < 0.5); c_ = sum(1 for r in rows if (not r[1]) and r[2] > 0.5)
+nb = b_ + c_
+sign_p = sum(comb(nb, i) for i in range(b_, nb + 1)) / 2 ** nb if nb else 1.0
+res["paired_task_clustered"] = {
+    "n_candidates": len(rows), "n_tasks": len(tk),
+    "author_pct": round(100 * sum(r[1] for r in rows) / len(rows), 1),
+    "others_mean_pct": round(100 * sum(r[2] for r in rows) / len(rows), 1),
+    "diff_pts": round(100 * (sum(r[1] for r in rows) - sum(r[2] for r in rows)) / len(rows), 1),
+    "diff_ci95_task_bootstrap": [round(diffs[50], 1), round(diffs[1949], 1)],
+    "one_sided_boot_p": sum(d <= 0 for d in diffs) / len(diffs),
+    "author_accepts_most_others_reject": b_, "reverse": c_, "sign_test_one_sided_p": sign_p}
 (D / "analysis/round8_cross_fails_shown_analysis.json").write_text(json.dumps(res, indent=1, default=str) + "\n")
 print(json.dumps(res, indent=1, default=str))
